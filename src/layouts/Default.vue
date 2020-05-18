@@ -9,10 +9,10 @@
 </template>
 
 <script>
-import theSkipNav from '~/components/TheSkipNav.vue'
-import theHeader from '~/components/TheHeader.vue'
-import theBreadcrumbs from '~/components/TheBreadcrumbs.vue'
-import theFooter from '~/components/TheFooter.vue'
+import theSkipNav from '~/components/layout/AppSkipNav.vue'
+import theHeader from '~/components/layout/AppHeader.vue'
+import theBreadcrumbs from '~/components/layout/AppBreadcrumbs.vue'
+import theFooter from '~/components/layout/AppFooter.vue'
 
 export default {
   components: {
