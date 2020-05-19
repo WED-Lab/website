@@ -2,7 +2,7 @@
   <div>
     <footer>
       <div class="bg-dark-turquoise">
-        <div class="w-5/6 mx-auto mt-10 p-10">
+        <div class="w-5/6 mx-auto p-10">
           <div class="flex flex-col md:flex-row justify-between">
             <div class="">
               <ul class="flex flex-col">
