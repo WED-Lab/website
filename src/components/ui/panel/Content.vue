@@ -41,7 +41,7 @@ export default {
     width: {
       type: String,
       required: false,
-      default: 'w-2/3'
+      default: 'w-7/12'
     },
 
     paddingVertical: {

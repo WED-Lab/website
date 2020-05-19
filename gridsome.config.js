@@ -16,7 +16,6 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require(
 module.exports = {
     siteName: 'WEDLab',
     siteUrl: 'https://www.gridsome.org',
-    plugins: [],
     css: {
         loaderOptions: {
             postcss: {
@@ -29,5 +28,18 @@ module.exports = {
     icon: {
       favicon: './src/assets/images/icon/favicon.png',
       touchicon: './src/assets/images/icon/apple-touch-icon.png'
-    }
+    },
+
+    // Plugin setup
+    plugins: [
+
+      // Access content from the local file system
+      {
+        use: '@gridsome/source-filesystem',
+        options: {
+          path: 'docs/**/*.md',
+          typeName: 'DocPage'
+        }
+      }
+    ]
 }
