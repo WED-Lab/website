@@ -1,11 +1,13 @@
 <template>
   <Layout>
-    <hero />
-    <seminars />
-    <latest-works />
-    <research-projects />
-    <promotional-video />
-    <partners />
+    <main>
+      <hero />
+      <seminars />
+      <latest-works />
+      <research-projects />
+      <promotional-video />
+      <partners />
+    </main>
   </Layout>
 </template>
 

@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'Panel',
+  name: 'MainPanel',
 
   data: function () {
     return {
@@ -41,13 +41,13 @@ export default {
     width: {
       type: String,
       required: false,
-      default: 'w-5/6'
+      default: 'w-2/3'
     },
 
     paddingVertical: {
       type: String,
       required: false,
-      default: 'py-32'
+      default: 'py-20'
     },
 
     paddingHorizontal: {
@@ -55,7 +55,6 @@ export default {
       required: false,
       default: 'px-10'
     },
-
 
   }
 }

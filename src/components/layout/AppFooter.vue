@@ -10,16 +10,16 @@
                   <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/">Home</g-link>
                 </li>
                 <li>
-                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/">Seminars</g-link>
+                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/seminars/">Seminars</g-link>
                 </li>
                 <li>
-                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/">People</g-link>
+                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/people/">People</g-link>
                 </li>
                 <li>
-                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/">Projects</g-link>
+                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/projects/">Projects</g-link>
                 </li>
                 <li>
-                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/">Publications</g-link>
+                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/publications/">Publications</g-link>
                 </li>
                 <li>
                   <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/about/">About</g-link>

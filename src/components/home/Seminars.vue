@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Panel from '~/components/ui/Panel.vue'
+import Panel from '~/components/ui/panel/Feature.vue'
 
 export default {
   name: 'HomeSeminars',

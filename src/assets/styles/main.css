@@ -1,5 +1,21 @@
 @tailwind base;
 
+html {
+  @apply text-gray-700 antialiased tracking-wide;
+}
+
+p {
+  @apply text-lg;
+}
+
+a {
+  @apply text-dark-turquoise;
+}
+
+a:hover {
+  @apply underline;
+}
+
 @tailwind components;
 
 @tailwind utilities;
