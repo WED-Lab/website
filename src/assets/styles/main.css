@@ -4,8 +4,20 @@ html {
   @apply text-gray-700 antialiased tracking-wide;
 }
 
+h1 {
+  @apply mb-5 text-5xl text-dark-turquoise font-bold;
+}
+
+h2 {
+  @apply mt-10 mb-5 text-4xl text-dark-turquoise font-bold;
+}
+
+h3 {
+  @apply mt-2 mb-5 text-2xl text-dark-turquoise font-bold;
+}
+
 p {
-  @apply text-lg;
+  @apply text-lg mb-5;
 }
 
 a {
