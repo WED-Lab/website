@@ -1,11 +1,20 @@
 <template>
   <div>
-    <h2>Hero</h2>
+    <panel backgroundColor="bg-red-400">
+      <div class=" w-full bg-dark-red">
+        <h2>Hero</h2>
+      </div>
+    </panel>
   </div>
 </template>
 
 <script>
+import Panel from '~/components/ui/Panel.vue'
+
 export default {
-  name: 'HomeHero'
+  name: 'HomeHero',
+  components: {
+    Panel
+  }
 }
 </script>

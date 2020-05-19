@@ -1,11 +1,18 @@
 <template>
   <div>
-    <h2>Partners</h2>
+    <panel>
+      <h2>Partners</h2>
+    </panel>
   </div>
 </template>
 
 <script>
+import Panel from '~/components/ui/Panel.vue'
+
 export default {
-  name: 'HomePartners'
+  name: 'HomePartners',
+  components: {
+    Panel
+  }
 }
 </script>
