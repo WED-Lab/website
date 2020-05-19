@@ -24,4 +24,10 @@ module.exports = {
             },
         },
     },
+
+    // Favicon setup
+    icon: {
+      favicon: './src/assets/images/icon/favicon.png',
+      touchicon: './src/assets/images/icon/apple-touch-icon.png'
+    }
 }
