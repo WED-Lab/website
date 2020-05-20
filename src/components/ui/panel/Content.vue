@@ -1,7 +1,9 @@
 <template>
-  <div :class="outerClasses">
-    <div class="mx-auto" :class="innerClasses">
-      <slot />
+  <div :class="backgroundColor">
+    <div class="container">
+      <div class="mx-auto" :class="outerClasses">
+        <slot />
+      </div>
     </div>
   </div>
 </template>
@@ -18,14 +20,9 @@ export default {
   computed: {
 
     outerClasses: function () {
-      return this.backgroundColor + ' ' +
+      return this.width + ' ' +
              this.paddingVertical + ' ' +
              this.paddingHorizontal
-    },
-
-
-    innerClasses: function () {
-      return this.width
     }
 
   },
@@ -41,7 +38,7 @@ export default {
     width: {
       type: String,
       required: false,
-      default: 'w-full sm:w-11/12 md:w-7/12 lg:w-2/3 xl:w-1/2'
+      default: 'w-full sm:w-11/12 md:w-10/12 lg:w-8/12 xl:w-7/12'
     },
 
     paddingVertical: {

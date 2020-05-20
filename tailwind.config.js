@@ -8,6 +8,9 @@ module.exports = {
         'dark-red': '#DC3833',
         'light-gray': '#f1f3f3'
       }
+    },
+    container: {
+      center: true
     }
   },
   variants: {},
