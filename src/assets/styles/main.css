@@ -5,7 +5,7 @@ html {
 }
 
 h1 {
-  @apply mb-5 text-5xl text-dark-turquoise font-bold;
+  @apply mb-5 text-5xl text-dark-turquoise font-medium;
 }
 
 h2 {
