@@ -6,7 +6,7 @@ module.exports = {
         'light-turquoise': '#79CED8',
         'dark-turquoise': '#23BDC5',
         'dark-red': '#DC3833',
-        'light-gray': '#f1f3f3'
+        'light-gray': '#f4f7f8'
       }
     },
     container: {
