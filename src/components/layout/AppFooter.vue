@@ -73,7 +73,7 @@
               <h3 class="sr-only">Copyright information:</h3>
               <p class="text-sm text-gray-700">Copyright © 2020 McGill University</p>
             </div>
-            <div class="w-3/12">
+            <div class="w-40">
               <h3 class="sr-only">Brand Logo:</h3>
               <g-image alt="Example image" src="~/assets/images/brand/wed-lab.png" fit="contain" quality="100" />
             </div>
