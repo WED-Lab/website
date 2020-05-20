@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <main>
-      <content-panel backgroundColor="bg-gray-100">
+      <content-panel backgroundColor="bg-light-gray">
 
         <h1>Publications</h1>
 
