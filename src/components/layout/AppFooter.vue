@@ -66,7 +66,7 @@
           </div>
         </div>
       </div>
-      <div class="bg-light-gray">
+      <div class="bg-white">
         <div class="w-5/6 mx-auto p-10">
           <div class="flex flex-col md:flex-row justify-between items-center">
             <div>

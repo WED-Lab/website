@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-light-gray">
+    <div class="bg-white">
       <header>
         <nav class="flex items-center justify-between py-6 px-10">
           <h2 class="sr-only">Site Navigation</h2>
