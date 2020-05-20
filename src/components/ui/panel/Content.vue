@@ -41,19 +41,19 @@ export default {
     width: {
       type: String,
       required: false,
-      default: 'w-7/12'
+      default: 'w-full sm:w-11/12 md:w-7/12 lg:w-2/3 xl:w-1/2'
     },
 
     paddingVertical: {
       type: String,
       required: false,
-      default: 'py-20'
+      default: 'md:py-20'
     },
 
     paddingHorizontal: {
       type: String,
       required: false,
-      default: 'px-10'
+      default: 'px-5 md:px-10'
     },
 
   }
