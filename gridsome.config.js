@@ -37,8 +37,8 @@ module.exports = {
       {
         use: '@gridsome/source-filesystem',
         options: {
-          path: 'docs/**/*.md',
-          typeName: 'DocPage'
+          path: 'data/publications/publications.json',
+          typeName: 'Publications'
         }
       }
     ]
