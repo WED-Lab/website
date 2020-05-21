@@ -1,18 +1,54 @@
 <template>
   <Layout>
     <main>
-      <content-panel>
+      <content-panel backgroundColor="bg-light-gray">
 
         <h1 class="mb-5 text-5xl text-dark-turquoise font-extrabold">People</h1>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+
+        <div
+          v-for="category in categories"
+          v-bind:key="category.id">
+          <section>
+            <h2>{{ category.heading }}</h2>
+
+            <div class="flex flex-row flex-wrap -mx-2">
+              <people-card
+                v-for="person in correctCategoryFilter(category.id)"
+                v-bind:key="person.id"
+                v-bind:person="person.node" />
+            </div>
+
+          </section>
+        </div>
 
       </content-panel>
     </main>
   </Layout>
 </template>
 
+<page-query>
+query {
+  people: allPeople (sortBy: "lastName", order: ASC) {
+    edges {
+      node {
+        id,
+        path,
+        title,
+        positionTitle,
+        lastName
+        category,
+        image,
+        readMore
+      }
+    }
+  }
+}
+</page-query>
+
 <script>
+import PeopleCard from '~/components/ui/card/People.vue'
 import ContentPanel from '~/components/ui/panel/Content.vue'
 
 export default {
@@ -20,7 +56,41 @@ export default {
     title: 'People'
   },
 
+  data: function () {
+    return {
+      categories: [
+         {
+          'id': 'faculty',
+          'heading': 'Faculty'
+        },
+        {
+          'id': 'practice',
+          'heading': 'Professors of Practice'
+        },
+        {
+          'id': 'research',
+          'heading': 'Research Associates'
+        }
+      ]
+    }
+  },
+
+  methods: {
+
+    correctCategoryFilter: function (id) {
+
+      console.log('people query', this.$page.people.edges)
+
+      return this.$page.people.edges.filter( function (el) {
+        console.log('filter query', el.node.category, id)
+        return el.node.category.toLowerCase() === id.toLowerCase()
+      })
+    }
+
+  },
+
   components: {
+    PeopleCard,
     ContentPanel
   }
 }

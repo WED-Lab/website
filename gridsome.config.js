@@ -33,13 +33,28 @@ module.exports = {
     // Plugin setup
     plugins: [
 
-      // Access content from the local file system
+      // Access content from the local file system to display the publications
       {
         use: '@gridsome/source-filesystem',
         options: {
           path: 'data/publications/publications.json',
           typeName: 'Publications'
         }
-      }
-    ]
+      },
+
+      // Access content from the local file system to display the people section
+      {
+        use: '@gridsome/vue-remark',
+        options: {
+          typeName: 'People', // Required
+          baseDir: './data/people', // Where .md files are located
+          pathPrefix: '/people', // Add route prefix. Optional
+          template: './src/templates/People.vue' // Optional
+        }
+      },
+    ],
+
+    chainWebpack: config => {
+      config.resolve.alias.set('@images', '@/assets/images')
+    }
 }

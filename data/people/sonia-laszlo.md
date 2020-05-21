@@ -1,0 +1,11 @@
+---
+title: Sonia Laszlo
+firstName: Sonia
+lastName: Laszlo
+category: Faculty
+positionTitle: Lab Program Lead and Associate Professor, Department of Economics
+image: /images/people/sonia-laszlo.jpg
+readMore: https://sites.google.com/site/sonialaszlo/home
+---
+
+<p>Professor Sonia Laszlo is an Associate Professor of Economics. Her research expertise covers many aspects of applied microeconomic analysis in economic development. Specifically, she is currently working in two broad research areas: decision-making under uncertainty (namely concerning technology adoption among subsistence farmers) and the micro-economic effects of social policies and conditions (in the area of education, health and labour markets), with a focus on women. Prof. Laszlo has conducted her research in Peru, Kenya and in the Caribbean, using laboratory experiments, surveys or randomized controlled trials. She is also a member of the Centre Interuniversitaire de Recherche en Organizations (<abbr>CIRANO</abbr>) and the Grupo de Analysis para el Desarrollo (<abbr>GRADE</abbr>). In 2005, she co‐founded and has since been an executive member of the Canadian Development Economics Study Group (<abbr>CDESG</abbr>), which groups both academic and policy development economists in Canada.</p>
