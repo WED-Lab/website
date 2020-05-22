@@ -2,7 +2,7 @@
   <div>
     <footer>
       <div class="bg-dark-turquoise">
-        <div class="w-5/6 mx-auto p-10">
+        <div class="w-5/6 container mx-auto p-10">
           <div class="flex flex-col md:flex-row justify-between">
             <div class="">
               <ul class="flex flex-col">
@@ -67,7 +67,7 @@
         </div>
       </div>
       <div class="bg-white">
-        <div class="w-5/6 mx-auto p-10">
+        <div class="container w-5/6 mx-auto p-10">
           <div class="flex flex-col md:flex-row justify-between items-center">
             <div>
               <h3 class="sr-only">Copyright information:</h3>
