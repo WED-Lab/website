@@ -8,6 +8,7 @@
         <p>The WED Lab is comprised of interdisciplinary researchers working on projects related to women's empowerment in developing countries.</p>
 
         <div
+          class="pb-10"
           v-for="category in categories"
           v-bind:key="category.id">
           <section>
@@ -78,11 +79,7 @@ export default {
   methods: {
 
     correctCategoryFilter: function (id) {
-
-      console.log('people query', this.$page.people.edges)
-
       return this.$page.people.edges.filter( function (el) {
-        console.log('filter query', el.node.category, id)
         return el.node.category.toLowerCase() === id.toLowerCase()
       })
     }

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-1/2 px-2 mt-6">
+  <div class="w-full sm:w-1/2 px-2 mt-6">
     <div class="flex flex-col items-center rounded-lg shadow-xs md:shadow-md bg-white h-full p-4">
       <!--  border border-solid border-gray-200  -->
       <div class="flex-shrink-0 h-32 w-32">
