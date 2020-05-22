@@ -3,7 +3,7 @@
     <main>
       <content-panel>
         <h1 class="text-4xl font-bold leading-tight">{{ $page.people.title }}</h1>
-        <p>{{ $page.people.readMore }}</p>
+
         <div class="markdown-body">
           <VueRemarkContent />
         </div>
