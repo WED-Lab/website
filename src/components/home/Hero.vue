@@ -7,9 +7,9 @@
             <g-image src="~/assets/images/brand/wed-lab-globe-large.png" alt="WEDLab Logo" />
           </div>
           <div class="w-1/2 ml-10">
-            <h1 class="font-bold">Women's Empowerment in Development Lab at ISID</h1>
+            <h1 class="font-bold">Women's Empowerment in Development Lab</h1>
 
-            <p class="text-2xl my-10">Run by the Institute for the Study of International Development. This Research-to-Practice Lab is bridging the gap between academics, practitioners and policy makers in Canada and globally on issues related to women's empowerment in developing countries.</p>
+            <p class="text-2xl my-10">This Research-to-Practice Lab is bridging the gap between academics, practitioners and policy makers in Canada and globally on issues related to women's empowerment in developing countries. The lab is led by Prof. Sonia Laszlo in partnership with McGill Institute for the Study of International Development</p>
 
             <ul class="flex flex-row justify-between list-none">
               <li>
