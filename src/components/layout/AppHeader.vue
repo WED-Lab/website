@@ -55,7 +55,7 @@
 
     <div class="bg-white">
       <header>
-        <nav class="flex items-center py-6 px-10 flex-wrap">
+        <nav class="flex items-center py-6 px-3 md:px-10 flex-wrap">
           <a href="/" class="p-2 mr-4 inline-flex items-center w-40">
             <g-image alt="WED Lab Logo" src="~/assets/images/brand/wed-lab.png" fit="contain" quality="100" />
             <span class="sr-only"
