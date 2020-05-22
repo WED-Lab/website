@@ -2,7 +2,7 @@
 title: Kate Grantham
 firstName: Kate
 lastName: Grantham
-category: Research
+category: passed
 positionTitle: WED Lab Coordinator, Research Associate, Institute for the Study of International Development
 image: /images/people/kate-grantham.jpg
 readMore: 

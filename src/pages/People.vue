@@ -65,11 +65,11 @@ export default {
         },
         {
           'id': 'practice',
-          'heading': 'Professors of Practice'
+          'heading': 'Professors of practice'
         },
         {
-          'id': 'research',
-          'heading': 'Research Associates'
+          'id': 'passed',
+          'heading': 'Passed associates'
         }
       ]
     }
