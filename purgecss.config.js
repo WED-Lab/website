@@ -6,6 +6,7 @@ module.exports = {
     './src/**/*.html',
     './src/**/*.pug',
     './src/**/*.md',
+    './data/**/*.md' // Markdown files are kept in the data folder
   ],
   whitelist: [
     'body',
