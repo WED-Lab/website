@@ -5,7 +5,7 @@
 
         <h1 class="mb-5 text-5xl text-dark-turquoise font-extrabold">People</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+        <p>The WED Lab is comprised of interdisciplinary researchers working on projects related to women's empowerment in developing countries.</p>
 
         <div
           v-for="category in categories"
