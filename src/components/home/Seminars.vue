@@ -3,7 +3,7 @@
     <panel>
       <div class="text-center">
 
-        <h2 class="text-4xl">WED Lab Seminar Series</h2>
+        <h2 class="mt-0 text-4xl">WED Lab Seminar Series</h2>
 
         <p class="my-16 text-2xl">Seven research-to-practice seminars for students, scholars, practitioners and policymakers on topics related to women’s empowerment in development.</p>
 
