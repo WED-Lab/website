@@ -7,7 +7,7 @@
 
         <p>The concept of women's empowerment has received increased attention by the international development community in recent years. Yet, more work is needed to clarify what constitutes women's empowerment in contemporary circumstances, and how to evaluate various policies and practices for their impact on promoting various forms of women's empowerment.</p>
 
-        <p>The Women's Empowerment in Development (<abbr>WED</abbr>) Lab is housed at McGill University's Institute for the Study of International Development (<abbr>ISID</abbr>). It builds on the expertise of interdisciplinary researchers at <abbr>ISID</abbr>, in order to connect academics, practitioners and policy makers in Canada and globally on issues related to women's empowerment in developing countries.</p>
+        <p>The Women's Empowerment in Development (<abbr>WED</abbr>) Lab, in partnership with McGill University's Institute for the Study of International Development (<abbr>ISID</abbr>), builds on interdisciplinary research to connect academics, practitioners and policy makers in Canada and globally on issues related to women's empowerment in developing countries.</p>
 
         <h2 class="">Purpose of the Lab</h2>
 
