@@ -14,8 +14,10 @@ const postcssPlugins = [
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('./purgecss.config.js')))
 
 module.exports = {
-    siteName: 'WEDLab',
-    siteUrl: 'https://www.gridsome.org',
+    siteName: 'Women\'s Empowerment in Development Lab',
+    siteUrl: 'https://womensempowerment.lab.mcgill.ca/',
+
+    titleTemplate: '%s | <siteName>',
     css: {
         loaderOptions: {
             postcss: {
