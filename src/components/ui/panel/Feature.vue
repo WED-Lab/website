@@ -47,7 +47,7 @@ export default {
     paddingVertical: {
       type: String,
       required: false,
-      default: 'py-40'
+      default: 'py-32'
     },
 
     paddingHorizontal: {
