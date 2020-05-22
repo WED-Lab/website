@@ -38,7 +38,7 @@ export default {
     width: {
       type: String,
       required: false,
-      default: 'w-full sm:w-11/12 md:w-10/12 lg:w-8/12 xl:w-7/12'
+      default: 'w-full sm:w-11/12 md:w-10/12 lg:w-9/12 xl:w-8/12'
     },
 
     paddingVertical: {
