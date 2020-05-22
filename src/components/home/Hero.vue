@@ -1,8 +1,35 @@
 <template>
   <div>
-    <panel backgroundColor="bg-red-400">
-      <div class=" w-full bg-dark-red">
-        <h2>Hero</h2>
+    <panel backgroundColor="bg-gray-100">
+      <div class="w-full bg-gray-100 mx-auto">
+        <div class="flex flex-row items-center">
+          <div class="w-1/2">
+            <g-image src="~/assets/images/brand/wed-lab-globe-large.png" alt="WEDLab Logo" />
+          </div>
+          <div class="w-1/2 ml-10">
+            <h1 class="font-bold">Women's Empowerment in Development Lab at ISID</h1>
+
+            <p class="text-2xl my-10">Run by the Institute for the Study of International Development. This Research-to-Practice Lab is bridging the gap between academics, practitioners and policy makers in Canada and globally on issues related to women's empowerment in developing countries.</p>
+
+            <ul class="flex flex-row justify-between list-none">
+              <li>
+                <g-link
+                  class="text-xl text-white bg-dark-turquoise rounded-lg py-2 px-5 font-bold hover:no-underline hover:bg-light-turquoise"
+                  to="/publications/">Publications</g-link>
+              </li>
+              <li>
+                <g-link
+                  class="text-xl text-white bg-dark-turquoise rounded-lg py-2 px-5 font-bold hover:no-underline hover:bg-light-turquoise"
+                  to="/projects/">Projects</g-link>
+              </li>
+              <li>
+                <g-link
+                  class="text-xl text-white bg-dark-turquoise rounded-lg py-2 px-5 font-bold hover:no-underline hover:bg-light-turquoise"
+                  to="/people/">People</g-link>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </panel>
   </div>
