@@ -1,0 +1,122 @@
+---
+title: "Social Norms and Women's Empowerment"
+date: 2019-09-24
+event_passed: true
+---
+
+<section>
+	<div class="row mb-5">
+		<div class="col">
+			<div class="people-card-container">
+				<h2 class="sr-only">Seminar Image</h2>
+				<img class="img-fluid" src="{{< relURL "/images/seminars/social-norms-womens-empowerment/main.jpg" >}}" alt="" />
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--
+<section>
+	<div class="row mb-5">
+		<div class="col">
+			<div class="people-card-container">
+				<div class="people-name">
+					<h2 class="mt-1">Register for the webinar:</h2>
+				</div>
+				<div class="people-author">
+					<dl class="row">
+						<dt class="col-sm-2">Title:</dt>
+						<dd class="col-sm-10">Social Norms and Women's Empowerment</dd>
+
+						<dt class="col-sm-2">Date:</dt>
+						<dd class="col-sm-10">Tuesday, September 24, 2019</dd>
+
+						<dt class="col-sm-2">Time:</dt>
+						<dd class="col-sm-10">1:00-3:00pm (<abbr>EST</abbr>)</dd>
+
+						<dt class="col-sm-2">Duration:</dt>
+						<dd class="col-sm-10">2 Hours</dd>
+					</dl>
+				</div>
+				<div class="people-title">
+				</div>
+				<div class="people-btn">
+					<a target="_blank" href="https://zoom.us/webinar/register/WN_OjrBxxdDT4-K9UY4lKL11Q" class="btn btn-red btn-lg">Register Now</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+-->
+
+<section>
+	<h2>Seminar description:</h2>
+	<p>This 2-hours seminar/webinar explored the role that social norms play in dictating women's choices, access to jobs, and in the impact of policies and programs intended to encourage women's labour force participation. While women and girls' access to education and healthcare has been consistently improving over time, this has not translated into gains in the labour market. Women remain stuck in low quality, informal work, responsible for the vast majority of unpaid work and care responsibilities, and even policies and programs specifically designed to promote gender equality often come up short in results.</p>
+	<p>Norms are context specific, difficult to identify, and difficult to measure, and yet they have significant impacts on women's lives. A diverse panel of experts from the worlds of international development research, policy and practice discussed the role of social norms in their experience as researchers and practitioners working on women's economic empowerment in low-income countries, and that way those norms shaped not only the lives of women but their own work.</p>
+	<p>This is the fifth in a series of eight research-to-practice training seminars/webinars on women's empowerment organized by the <abbr>WED</abbr> Lab in partnership with Canada's International Development Research Centre.</p>
+</section>
+
+<section>
+	<h2>Featured panelists will include:</h2>
+	<ul class="list-disc list-inside">
+		<li>Kathleen Fallon (Stony Brook University) (Facilitator)</li>
+		<li>Martha Melesse (International Development Research Centre)</li>
+		<li>Doris Buss (Carleton University)</li>
+		<li>Diana Sarosi (Oxfam Canada) </li>
+	</ul>
+</section>
+
+<section>
+	<h2>Related materials:</h2>
+	<ul class="row list-unstyled">
+		<li class="col-md-6 my-3">
+			<div class="people-card-container">
+				<div class="people-name">
+					<h3 class="mt-1"><span class="sr-only">Material Name: </span>Social Norms and Women's Empowerment (PDF Version)</h3>
+				</div>
+				<div class="people-type">
+					<span class="sr-only">Type: </span>Seminar Slides
+				</div>
+				<div class="people-img">
+					<img src="{{< relURL "/images/seminars/social-norms-womens-empowerment/thumbnail.png" >}}" alt="" class="img-fluid" />
+				</div>
+				<div class="people-title">
+					<span class="sr-only">Author: </span>Kathleen Fallon
+				</div>
+				<div class="people-btn">
+					<a href="{{< relURL "/resources/seminars/social-norms-womens-empowerment/slides.pdf" >}}" class="btn btn-red">Download</a>
+				</div>
+			</div>
+		</li>
+		<li class="col-md-6 my-3">
+			<div class="people-card-container">
+				<div class="people-name">
+					<h3 class="mt-1"><span class="sr-only">Material Name:</span>Can Subsidized Early Child Care Promote Women’s Employment? Evidence from Kenya
+					</h3>
+				</div>
+				<div class="people-type">
+					<span class="sr-only">Type: </span>Policy Brief
+				</div>
+				<div class="people-img">
+					<img src="{{< relURL "/images/seminars/social-norms-womens-empowerment/gpb-1.png" >}}" alt="" class="img-fluid" />
+				</div>
+				<div class="people-title">
+					Shelley Clark, Caroline Kabiru, Sonia Laszlo and Stella Muthuri
+				</div>
+				<div class="people-btn">
+					<a href="http://grow.research.mcgill.ca/publications/policy-briefs/gpb-2017-01.pdf" class="btn btn-red">Download</a>
+				</div>
+			</div>
+		</li>
+	</ul>
+</section>
+
+<section>
+	<h2>Suggested readings on this topic:</h2>
+	<ul class="list-unstyled">
+		<li class="my-4"><a rel="external" target="_blank" href="https://idl-bnc-idrc.dspacedirect.org/handle/10625/57285">Marcus, R. 2019. "The norms factor: recent research on gender, social norms, and women's economic empowerment." IDRC, Ottawa.</a></li>
+		<li class="my-4"><a rel="external" target="_blank" href="https://www.odi.org/sites/odi.org.uk/files/resource-documents/10683.pdf">Hunt, A. and E. Samman. 2016. "Women's Economic Empowerment: Navigating Enablers and Constraints." Overseas Development Institute, London.</a></li>
+		<li class="my-4"><a rel="external" target="_blank" href="https://www.ilo.org/wcmsp5/groups/public/---ed_emp/---emp_ent/---ifp_seed/documents/briefingnote/wcms_430936.pdf">Robbins, E. 2016. "Engaging Men in Women's Economic Empowerment and Entrepreneurship Development Interventions." International Labour Organization – Women's Entrepreneurship Development Programme (ILO-WED), Geneva. </a></li>
+		<li class="my-4"><a rel="external" target="_blank" href="https://idl-bnc-idrc.dspacedirect.org/bitstream/handle/10625/56530/IDL-56530.pdf?sequence=2&isAllowed=y">Buss, D., Rutherford, B., O'Neill, M., Vargas-Garcia, A. and M. Melesse. 2017. "Empowering women in artisanal and small-scale mining in Central and East Africa." GrOW Briefs. International Development Research Centre, Ottawa. </a></li>
+	</ul>
+</section>

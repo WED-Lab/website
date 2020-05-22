@@ -64,5 +64,16 @@ module.exports = {
         }
       },
 
+       // Access content from the local file system to display the seminars section
+       {
+        use: '@gridsome/vue-remark',
+        options: {
+          typeName: 'Seminar', // Required
+          baseDir: './data/seminars', // Where .md files are located
+          pathPrefix: '/seminars', // Add route prefix. Optional
+          template: './src/templates/Seminar.vue' // Optional
+        }
+      }
+
     ]
 }

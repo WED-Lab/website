@@ -1,0 +1,146 @@
+---
+title: "Using Quantitative Methodologies to Study Women's Empowerment"
+date: 2019-10-24
+event_passed: true
+---
+
+<section>
+	<div class="row mb-5">
+		<div class="col">
+			<div class="people-card-container">
+				<h2 class="sr-only">Webinar Video</h2>
+				<div class="embed-responsive embed-responsive-16by9 my-2">
+					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rIYTyhwyfxA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--
+<section>
+	<div class="row mb-5">
+		<div class="col">
+			<div class="people-card-container">
+				<div class="people-name">
+					<h2 class="mt-1">Register for the seminar/webinar:</h2>
+				</div>
+				<div class="people-author">
+					<dl class="row">
+						<dt class="col-sm-2">Title:</dt>
+						<dd class="col-sm-10">Using Quantitative Methodologies to Study Women's Empowerment </dd>
+
+						<dt class="col-sm-2">Location:</dt>
+						<dd class="col-sm-10">In Ottawa or remotely via Zoom</dd>
+
+
+						<dt class="col-sm-2">Date:</dt>
+						<dd class="col-sm-10">Thursday, October 24, 2019</dd>
+
+						<dt class="col-sm-2">Time:</dt>
+						<dd class="col-sm-10">1:00-3:00pm (<abbr>EST</abbr>)</dd>
+
+						<dt class="col-sm-2">Duration:</dt>
+						<dd class="col-sm-10">2 Hours</dd>
+					</dl>
+				</div>
+				<div class="people-title">
+				</div>
+				<div class="people-btn">
+					<a target="_blank" href="https://forms.gle/n96YJXRv44y8nZwH7	" class="btn btn-red btn-lg">Attend in person</a>
+					<a target="_blank" href="https://zoom.us/webinar/register/WN_cXVYcgSpQbKc-0OnXSjiQA" class="btn btn-red btn-lg ml-3">Join online</a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</section>
+-->
+
+<section>
+	<h2>Seminar description:</h2>
+	<p>This 2-hour seminar/webinar shared information on quantitative methodologies for conducting research on women’s empowerment, with a focus on rigorous and experimental methodologies like randomized control trials. Some key considerations included: causal inference and counterfactual analysis, non-technical overview of main techniques to assess causal impacts, discussion around when certain techniques are appropriate, budget, sample size, cultural context, building equal and effective partnerships, and developing robust empowerment indexes, variables and indicators that meet the research question. Information on state of the art tools for conducting quantitative research, data collection and gender analysis were also shared.</p>
+	<p>A diverse panel of experts discussed the practical, ethical and methodological considerations and challenges they have encountered in the context of conducting quantitative research on women's empowerment in developing country contexts.</p>
+	<p>This is the sixth in a series of seven research-to-practice training seminars on women’s empowerment organized by the WED Lab in partnership with Canada’s International Development Research Centre.</p>
+</section>
+
+<section>
+	<h2>Featured panelists:</h2>
+	<ul class="list-inside list-disc">
+		<li>Franque Grimard (McGill University) (Facilitator)</li>
+		<li>Bouba Housseini (International Development Research Centre)</li>
+		<li>Carl Asuncion (MEDA) </li>
+	</ul>
+</section>
+
+<section>
+		<h2>Related materials:</h2>
+		<ul class="row list-unstyled">
+			<li class="col-md-6 my-3">
+				<div class="people-card-container">
+					<div class="people-name">
+						<h3 class="mt-1"><span class="sr-only">Material Name: </span>Using Quantitative Methodologies to Study Women’s Empowerment <br />(PDF Version)</h3>
+					</div>
+					<div class="people-type">
+						<span class="sr-only">Type: </span>Seminar Slides
+					</div>
+					<div class="people-img">
+						<img src="{{< relURL "/images/seminars/quantitative-methodologies-study-womens-empowerment/seminar-slides.png" >}}" alt="" class="img-fluid" />
+					</div>
+					<div class="people-title">
+						<span class="sr-only">Author: </span>Kate Grantham
+					</div>
+					<div class="people-btn">
+						<a href="{{< relURL "/resources/seminars/quantitative-methodologies-study-womens-empowerment/slides.pdf" >}}" class="btn btn-red">Download</a>
+					</div>
+				</div>
+			</li>
+			<li class="col-md-6 my-3">
+				<div class="people-card-container">
+					<div class="people-name">
+						<h3 class="mt-1"><span class="sr-only">Material Name: </span>Using Quantitative Methodologies to Study Women’s Empowerment <br />(PPT Version)</h3>
+					</div>
+					<div class="people-type">
+						<span class="sr-only">Type: </span>Seminar Slides
+					</div>
+					<div class="people-img">
+						<img src="{{< relURL "/images/seminars/quantitative-methodologies-study-womens-empowerment/seminar-slides.png" >}}" alt="" class="img-fluid" />
+					</div>
+					<div class="people-title">
+						<span class="sr-only">Author: </span>Kate Grantham
+					</div>
+					<div class="people-btn">
+						<a href="{{< relURL "/resources/seminars/quantitative-methodologies-study-womens-empowerment/slides.pptx" >}}" class="btn btn-red">Download</a>
+					</div>
+				</div>
+			</li>
+		</ul>
+</section>
+
+<section>
+		<h2>Suggested readings on this topic:</h2>
+		<ul class="list-unstyled">
+			<li class="my-4"><a target="_blank" href="https://www.worldbank.org/ieinpractice">Gertler, P.J., Martinez, S., Premand, P., Rawlings, L.B. and Christel M.J. Vermeersch. 2016. Impact Evaluation in Practice: 2nd Edition, Inter-American Development Bank and World Bank, Washington DC.</a></li>
+			<li class="my-4"><a target="_blank" href="http://grow.research.mcgill.ca/publications/working-papers/gwp-2017-05.pdf">Clark, S., Laszlo, S., Kabiru, C. and S. Muthuri. 2017. “Can Subsidized Early Child Care Promote Women’s Employment?: Evidence from a Slum Settlement in Africa.” GrOW Research Series Working Paper No. 5, McGill University, Montreal.</a></li>
+			<li class="my-4"><a target="_blank" href="https://www.povertyactionlab.org/sites/default/files/resources/practical-guide-to-measuring-womens-and-girls-empowerment-in-impact-evaluations.pdf">Glennerster, R., Walsh, C., L. Diaz-Martin. 2018. “A Practical Guide to Measuring Women’s and Girls’ Empowerment in Impact Evaluations.” Abdul Latif Jameel Poverty Action Lab, Cambridge. </a></li>
+			<li class="my-4"><a target="_blank" href="https://www.povertyactionlab.org/sites/default/files/resources/practical-guide-to-measuring-women-and-girls-empowerment-appendix1.pdf">Appendix 1: Examples of Survey Questions Related to Women’s Empowerment</a></li>
+			<li class="my-4"><a target="_blank" href="https://www.povertyactionlab.org/sites/default/files/resources/practical-guide-to-measuring-women-and-girls-empowerment-appendix2.pdf">Appendix 2: Examples of Non-Survey Instruments and Tips on Using Them</a></li>
+			<li class="my-4"><a target="_blank" href="https://economics.mit.edu/files/7417">Duflo, E. 2012. “Women Empowerment and Economic Development.” Journal of Economic Literature 50(4): 1051-1079.</a></li>
+			<li class="my-4"><a target="_blank" href="http://grow.research.mcgill.ca/publications/working-papers/gwp-2018-15.pdf">Braga. B. 2018. “The Effects of Trade Exposure on Marriage and Fertility Choices: Evidence from Brazil.” GrOW Research Series Working Paper No. 15, McGill University, Montreal.</a></li>
+			<li class="my-4"><a target="_blank" href="https://oxfamblogs.org/fp2p/naila-kabeer-on-why-randomized-controlled-trials-need-to-include-human-agency/">Kabeer, N. 2019. “Naila Kabeer on Why Randomized Controlled Trials need to include Human Agency.” June 7. Oxfam Blogs.</a></li>
+		</ul>
+</section>
+
+<!--
+<section>
+
+	<h2>Suggested readings on this topic:</h2>
+
+	<ul class="list-unstyled">
+
+		<li class="my-4"><a rel="external" target="_blank" href=""></a></li>
+
+	</ul>
+
+</section>
+-->
