@@ -32,7 +32,7 @@ export default {
     backgroundColor: {
       type: String,
       required: false,
-      default: 'bg-white'
+      default: 'bg-light-gray'
     },
 
     width: {

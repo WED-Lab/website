@@ -5,11 +5,11 @@ html {
 }
 
 h1 {
-  @apply mb-5 text-5xl text-dark-turquoise font-medium;
+  @apply mb-5 text-4xl text-dark-turquoise font-medium;
 }
 
 h2 {
-  @apply mt-10 mb-5 text-4xl text-dark-turquoise font-bold;
+  @apply mt-10 mb-5 text-3xl text-dark-turquoise font-bold;
 }
 
 h3 {

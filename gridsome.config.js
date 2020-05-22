@@ -52,9 +52,17 @@ module.exports = {
           template: './src/templates/People.vue' // Optional
         }
       },
-    ],
 
-    chainWebpack: config => {
-      config.resolve.alias.set('@images', '@/assets/images')
-    }
+      // Access content from the local file system to display the people section
+      {
+        use: '@gridsome/vue-remark',
+        options: {
+          typeName: 'Project', // Required
+          baseDir: './data/projects', // Where .md files are located
+          pathPrefix: '/projects', // Add route prefix. Optional
+          template: './src/templates/Project.vue' // Optional
+        }
+      },
+
+    ]
 }
