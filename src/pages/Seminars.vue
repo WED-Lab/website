@@ -10,7 +10,7 @@
         <p>Click on a topic to access a recording of the seminar, the facilitator’s PowerPoint slides, suggested readings and other related materials.</p>
 
         <div v-if="numberOfEvents(false) > 0">
-          <h2>New WED Lab Webinar Series on Gender and COVID-19</h2>
+          <h2>NEW! WED Lab - Special COVID-19 Webinar Series</h2>
 
           <ul
             class="list-none"
