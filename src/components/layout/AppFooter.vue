@@ -57,7 +57,7 @@
 											</svg>
                     </div>
                     <div class="font-light tracking-wider text-white not-italic text-lg ml-3">
-                      <span class="sr-only">Email: </span><a class="hover:underline" href="mailto:wedlab.isid@mcgill.ca">wedlab.isid@mcgill.ca</a>
+                      <span class="sr-only">Email: </span><a class="text-white hover:underline" href="mailto:wedlab.isid@mcgill.ca">wedlab.isid@mcgill.ca</a>
                     </div>
                   </li>
                 </ul>
