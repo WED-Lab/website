@@ -53,19 +53,19 @@ export default {
   },
 
   data: function () {
-      return {
-        statuses: [
-          {
-            'id': 'open',
-            'heading': 'Open projects'
-          },
-          {
-            'id': 'closed',
-            'heading': 'Closed projects'
-          }
-        ]
-      }
-    },
+    return {
+      statuses: [
+        {
+          'id': 'open',
+          'heading': 'Open projects'
+        },
+        {
+          'id': 'closed',
+          'heading': 'Closed projects'
+        }
+      ]
+    }
+  },
 
   methods: {
 
