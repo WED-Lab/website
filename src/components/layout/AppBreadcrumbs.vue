@@ -2,8 +2,7 @@
   <content-panel
     backgroundColor="bg-dark-turquoise"
     paddingVertical="py-1">
-    <h2 class="sr-only">Site Breadcrumbs - not implemented</h2>
-    <!--
+    <h2 class="sr-only">Site Breadcrumbs - not implemented completely</h2>
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li>
@@ -11,7 +10,6 @@
         </li>
       </ol>
     </nav>
-    -->
   </content-panel>
 </template>
 
