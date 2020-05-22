@@ -17,7 +17,7 @@ module.exports = {
     siteName: 'Women\'s Empowerment in Development Lab',
     siteUrl: 'https://womensempowerment.lab.mcgill.ca/',
 
-    titleTemplate: '%s | <siteName>',
+    titleTemplate: '%s | Women\'s Empowerment in Development Lab',
     css: {
         loaderOptions: {
             postcss: {
