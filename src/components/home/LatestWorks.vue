@@ -5,8 +5,8 @@
         <h2 class="mt-0 text-5xl">Latest Works</h2>
       </div>
 
-      <div class="flex flex-row -mx-4">
-        <div class="w-1/3 mx-4 flex flex-col w-full rounded-lg shadow-xs md:shadow-md bg-white my-8 p-4 pb-10 border border-solid border-gray-200 bg-white">
+      <div class="flex flex-col md:flex-row -mx-4">
+        <div class="w-full md:w-1/3 mx-4 flex flex-col w-full rounded-lg shadow-xs md:shadow-md bg-white my-8 p-4 pb-10 border border-solid border-gray-200 bg-white">
           <h3 class="text-gray-800 text-lg font-bold mt-1 mb-0">Can Subsidized Early Child Care Promote Women’s Employment? Evidence from Kenya</h3>
           <p>Shelley Clark, Caroline Kabiru, Sonia Laszlo and Stella Muthuri</p>
           <div>
@@ -16,7 +16,7 @@
               >Read more</a>
           </div>
         </div>
-        <div class="w-1/3 mx-4 flex flex-col w-full rounded-lg shadow-xs md:shadow-md bg-white my-8 p-4 pb-10 border border-solid border-gray-200 bg-white">
+        <div class="w-full md:w-1/3 mx-4 flex flex-col w-full rounded-lg shadow-xs md:shadow-md bg-white my-8 p-4 pb-10 border border-solid border-gray-200 bg-white">
           <h3 class="text-gray-800 text-lg font-bold mt-1 mb-0">Natural Resource Collection and Desired Family Size: A Longitudinal Test of Environment-Population Theories</h3>
           <p>Sarah Brauner-Otto and William G. Axinn</p>
           <div>
@@ -26,7 +26,7 @@
               >Read more</a>
           </div>
         </div>
-        <div class="w-1/3 mx-4 flex flex-col w-full rounded-lg shadow-xs md:shadow-md bg-white my-8 p-4 pb-10 border border-solid border-gray-200 bg-white">
+        <div class="w-full md:w-1/3 mx-4 flex flex-col w-full rounded-lg shadow-xs md:shadow-md bg-white my-8 p-4 pb-10 border border-solid border-gray-200 bg-white">
           <h3 class="text-gray-800 text-lg font-bold mt-1 mb-0">Bridging the Gap for Women in Science and Technology</h3>
           <p>Eliane Ubalijoro</p>
           <div>
