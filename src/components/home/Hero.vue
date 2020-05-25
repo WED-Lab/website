@@ -1,7 +1,7 @@
 <template>
   <div>
-    <panel backgroundColor="bg-gray-100">
-      <div class="w-full bg-gray-100 mx-auto">
+    <panel backgroundColor="bg-light-gray">
+      <div class="w-full mx-auto">
         <div class="flex flex-col md:flex-row items-center">
           <div class="w-3/4 md:w-1/2">
             <g-image src="~/assets/images/brand/wed-lab-globe-large.png" alt="WEDLab Logo" />
