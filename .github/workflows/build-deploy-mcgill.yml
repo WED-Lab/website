@@ -39,3 +39,4 @@ jobs:
           local_source_dir: dist
           dist_target_dir: "www12/my-app"
           delete: "true"
+          disable_ssl_certificate_verification: true
