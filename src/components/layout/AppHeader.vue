@@ -35,7 +35,7 @@
                  lg:flex lg:flex-row lg:w-auto lg:h-auto lg:bg-transparent lg:relative lg:justify-end lg:items-end lg:px-0"
           :class="{'open': isMenuVisible}">
 
-          <!-- Logo -->
+          <!-- Logo for the mobile modal window -->
           <div
             v-if="isMenuVisible"
             v-on:keydown.shift.tab.exact="shiftTabKeyHandler"
@@ -50,47 +50,16 @@
           </div>
 
           <!-- Links -->
-          <div
-            class="">
-            <ul
-              class="flex flex-col my-10
-                     lg:flex-row"
+          <div class="">
+            <ul class="flex flex-col my-10
+                       lg:flex-row"
               ref="menuList">
-              <li>
+              <li v-for="menuLink in menuLinks" :key="menuLink.text">
                 <g-link
                   class="text-3xl text-gray-800 font-bold antialiased
                          lg:text-lg lg:text-gray-700 lg:mr-5"
-                  to="/">Home</g-link>
-              </li>
-              <li>
-                <g-link
-                  class="text-3xl text-gray-800 font-bold
-                         lg:text-lg lg:text-gray-700 lg:mr-5"
-                  to="/seminars/">Seminars</g-link>
-              </li>
-              <li>
-                <g-link
-                  class="text-3xl text-gray-800 font-bold
-                         lg:text-lg lg:text-gray-700 lg:mr-5"
-                  to="/people/">People</g-link>
-              </li>
-              <li>
-                <g-link
-                  class="text-3xl text-gray-800 font-bold
-                         lg:text-lg lg:text-gray-700 lg:mr-5"
-                  to="/projects/">Projects</g-link>
-              </li>
-              <li>
-                <g-link
-                  class="text-3xl text-gray-800 font-bold
-                         lg:text-lg lg:text-gray-700 lg:mr-5"
-                  to="/publications/">Publications</g-link>
-              </li>
-              <li>
-                <g-link
-                  class="text-3xl text-gray-800 font-bold
-                         lg:text-lg lg:text-gray-700"
-                  to="/about/">About</g-link>
+                  exact-active-class="underline pointer-events-none md:pointer-events-auto text-dark-red lg:text-dark-red"
+                  :to="menuLink.path">{{ menuLink.text }}</g-link>
               </li>
             </ul>
           </div>
@@ -119,6 +88,32 @@ export default {
   data: function () {
     return {
       isMenuVisible: false,
+      menuLinks: [
+        {
+          text: 'Home',
+          path: '/'
+        },
+        {
+          text: 'Seminars',
+          path: '/seminars/'
+        },
+        {
+          text: 'People',
+          path: '/people/'
+        },
+        {
+          text: 'Projects',
+          path: '/projects/'
+        },
+        {
+          text: 'Publications',
+          path: '/publications/'
+        },
+        {
+          text: 'About',
+          path: '/about/'
+        }
+      ]
     }
   },
 
