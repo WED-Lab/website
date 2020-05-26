@@ -31,7 +31,7 @@ jobs:
         run: gridsome build
 
       - name: FTP Deploy
-        uses: kevinpainchaud/simple-ftp-deploy-action@v1
+        uses: kevinpainchaud/simple-ftp-deploy-action@v1.0.1
         with:
           ftp_host: ${{ secrets.FTP_HOST }}
           ftp_username: ${{ secrets.FTP_USERNAME }}
