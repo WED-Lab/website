@@ -2,7 +2,7 @@
   <layout>
     <main>
       <content-panel>
-        <h1 class="text-4xl font-bold leading-tight">{{ $page.seminar.title }}</h1>
+        <h1>{{ $page.seminar.title }}</h1>
 
         <div class="mt-5 markdown-body">
           <VueRemarkContent />
