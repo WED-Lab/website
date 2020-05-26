@@ -1,205 +1,199 @@
 <template>
-  <div>
-    <!--
-    <div class="bg-white">
-      <header>
-        <nav class="flex items-center justify-between py-6 px-10">
-          <h2 class="sr-only">Site Navigation</h2>
+  <div
+    v-on:keyup.esc="escKeyHandler"
+    class="bg-white shadow-sm border-b" >
+    <div class="container w-full mx-auto ">
+      <div class="flex flex-row justify-between items-center px-10 pt-6 pb-5
+                  lg:py-2">
 
-          <div class="flex items-center flex-shrink-0 text-white mr-8">
-            <div class="w-40">
-              <g-image alt="Example image" src="~/assets/images/brand/wed-lab.png" fit="contain" quality="100" />
-            </div>
-          </div>
-
-          <div class="block lg:hidden">
-            <button
-              v-on:click="toggleMenu"
-              class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-            </button>
-          </div>
-
-          <div
-            class="hidden absolute top-0 left-0 bg-red-100 z-50 w-full h-full block flex-grow items-end
-                   md:justify-end md:flex md:h-auto md:w-auto md:relative"
-            :class="menuClass">
-            <input class="hidden" v-on:keyup.esc="escKeyBoardHandler">
-            <ul class="flex flex-col mx-auto my-auto md:m-0 md:flex-row md:justify-end bg-red-200">
-              <li>
-                <g-link class="mr-8 text-gray-600 hover:text-gray-900 hover:no-underline text-lg tracking-wider font-light" to="/">Home</g-link>
-              </li>
-              <li>
-                <g-link class="mr-8 text-gray-600 hover:text-gray-900 hover:no-underline text-lg tracking-wider font-light" to="/seminars/">Seminars</g-link>
-              </li>
-              <li>
-                <g-link class="mr-8 text-gray-600 hover:text-gray-900 hover:no-underline text-lg tracking-wider font-light" to="/people/">People</g-link>
-              </li>
-              <li>
-                <g-link class="mr-8 text-gray-600 hover:text-gray-900 hover:no-underline text-lg tracking-wider font-light" to="/projects/">Projects</g-link>
-              </li>
-              <li>
-                <g-link class="mr-8 text-gray-600 hover:text-gray-900 hover:no-underline text-lg tracking-wider font-light" to="/publications/">Publications</g-link>
-              </li>
-              <li>
-                <g-link class="text-gray-600 hover:text-gray-900 hover:no-underline text-lg tracking-wider font-light" to="/about/">About</g-link>
-              </li>
-            </ul>
-          </div>
-
-        </nav>
-      </header>
-
-    </div>
-    -->
-
-    <div class="bg-white">
-      <header>
-        <nav class="flex items-center py-6 px-3 md:px-10 flex-wrap">
-          <a href="/" class="p-2 mr-4 inline-flex items-center w-40">
+        <!-- Logo -->
+        <div>
+          <g-link
+            to="/"
+            class="inline-flex items-center justify-center w-32" >
             <g-image alt="WED Lab Logo" src="~/assets/images/brand/wed-lab.png" fit="contain" quality="100" />
             <span class="sr-only"
-              >WED Lab</span
-            >
-          </a>
-           <!-- Menu button when small -->
-          <div class="block lg:hidden ml-auto">
-            <button
-              v-on:click="toggleMenu"
-              class="flex items-center px-3 py-2 border rounded focus:text-teal-200 text-teal-200 border-teal-400 hover:text-white hover:border-white">
-              <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-            </button>
-          </div>
-          <!--
+              >WED Lab</span>
+          </g-link>
+        </div>
+
+        <!-- Menu button when small -->
+        <div class="block lg:hidden ml-auto">
           <button
-            class="text-white inline-flex p-3 hover:bg-gray-900 rounded lg:hidden ml-auto hover:text-white outline-none nav-toggler"
-            data-target="#navigation"
-          >
-            <i class="material-icons">menu</i>
+            ref="menuCloseButton"
+            v-on:click="showMenu"
+            class="flex items-center px-3 py-3 bg-white border border-8 border-dark-turquoise text-dark-turquoise rounded-full shadow-md
+                   focus:text-dark-turquoise
+                   hover:text-light-turquoise hover:border-light-turquoise hover:shadow-lg">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
           </button>
-          -->
+        </div>
+
+        <!-- Menu Container -->
+        <div
+          class="hidden w-screen h-screen bg-light-gray absolute top-0 left-0 flex-col items-stretch justify-start px-10
+                 lg:flex lg:flex-row lg:w-auto lg:h-auto lg:bg-transparent lg:relative lg:justify-end lg:items-end lg:px-0"
+          :class="{'open': isMenuVisible}">
+
+          <!-- Logo -->
           <div
-            class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto"
-            :class="menuClass"
-          >
-            <div
-              class="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto"
-            >
-             <ul class="flex flex-col md:m-0 md:flex-row md:justify-end">
+            v-if="isMenuVisible"
+            v-on:keydown.shift.tab.exact="shiftTabKeyHandler"
+            ref="menuLogoLink">
+            <g-link
+              to="/"
+              class="pt-5 inline-flex items-center justify-center w-40 lg:hidden" >
+              <g-image immediate="true" alt="WED Lab Logo" src="~/assets/images/brand/wed-lab.png" fit="contain" quality="100" />
+              <span class="sr-only"
+                >WED Lab</span>
+            </g-link>
+          </div>
+
+          <!-- Links -->
+          <div
+            class="">
+            <ul
+              class="flex flex-col my-10
+                     lg:flex-row"
+              ref="menuList">
               <li>
-                <g-link class="md:mr-8 text-gray-600 hover:text-gray-900 hover:no-underline text-lg tracking-wider font-light" to="/">Home</g-link>
+                <g-link
+                  class="text-3xl text-gray-800 font-bold antialiased
+                         lg:text-lg lg:text-gray-700 lg:mr-5"
+                  to="/">Home</g-link>
               </li>
               <li>
-                <g-link class="md:mr-8 text-gray-600 hover:text-gray-900 hover:no-underline text-lg tracking-wider font-light" to="/seminars/">Seminars</g-link>
+                <g-link
+                  class="text-3xl text-gray-800 font-bold
+                         lg:text-lg lg:text-gray-700 lg:mr-5"
+                  to="/seminars/">Seminars</g-link>
               </li>
               <li>
-                <g-link class="md:mr-8 text-gray-600 hover:text-gray-900 hover:no-underline text-lg tracking-wider font-light" to="/people/">People</g-link>
+                <g-link
+                  class="text-3xl text-gray-800 font-bold
+                         lg:text-lg lg:text-gray-700 lg:mr-5"
+                  to="/people/">People</g-link>
               </li>
               <li>
-                <g-link class="md:mr-8 text-gray-600 hover:text-gray-900 hover:no-underline text-lg tracking-wider font-light" to="/projects/">Projects</g-link>
+                <g-link
+                  class="text-3xl text-gray-800 font-bold
+                         lg:text-lg lg:text-gray-700 lg:mr-5"
+                  to="/projects/">Projects</g-link>
               </li>
               <li>
-                <g-link class="md:mr-8 text-gray-600 hover:text-gray-900 hover:no-underline text-lg tracking-wider font-light" to="/publications/">Publications</g-link>
+                <g-link
+                  class="text-3xl text-gray-800 font-bold
+                         lg:text-lg lg:text-gray-700 lg:mr-5"
+                  to="/publications/">Publications</g-link>
               </li>
               <li>
-                <g-link class="text-gray-600 hover:text-gray-900 hover:no-underline text-lg tracking-wider font-light" to="/about/">About</g-link>
+                <g-link
+                  class="text-3xl text-gray-800 font-bold
+                         lg:text-lg lg:text-gray-700"
+                  to="/about/">About</g-link>
               </li>
             </ul>
-
-            <!--
-              <a
-                href="#"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
-              >
-                <span>Home</span>
-              </a>
-              <a
-                href="#"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
-              >
-                <span>About</span>
-              </a>
-              <a
-                href="#"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
-              >
-                <span>Services</span>
-              </a>
-              <a
-                href="#"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
-              >
-                <span>Gallery</span>
-              </a>
-              <a
-                href="#"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
-              >
-                <span>Products</span>
-              </a>
-              <a
-                href="#"
-                class="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-gray-400 items-center justify-center hover:bg-gray-900 hover:text-white"
-              >
-                <span>Contact Us</span>
-              </a>-->
-            </div>
           </div>
-        </nav>
-      </header>
+
+          <!-- Close button -->
+          <div v-if="isMenuVisible">
+            <button
+              ref="menuCloseButton"
+              v-on:keydown.tab.exact="tabKeyHandler"
+              v-on:click="hideMenu"
+              class="w-full text-white bg-dark-turquoise rounded-lg p-2 font-bold hover:no-underline hover:bg-light-turquoise lg:hidden">
+              Close menu</button>
+          </div>
+
+        </div>
+
+      </div>
     </div>
   </div>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
-
-
 <script>
 export default {
-  name: 'Header',
+  name: 'AppHeader2',
 
   data: function () {
     return {
-      menuOpen : false
+      isMenuVisible: false,
     }
-  },
-
-  computed: {
-
-    menuClass: function() {
-      return this.menuOpen ? 'open' : ''
-    }
-
   },
 
   methods: {
 
-    toggleMenu: function() {
-      this.menuOpen = !this.menuOpen
-      console.log('hello')
+    // Main toggle function to flip the menu open and closed
+    // and handle any other logic when the menu flips
+    showMenu: function () {
+
+      this.isMenuVisible = true
+
+      // Add a class so that the body won't scrool (doesn't work in Safari - but does in other browsers)
+      document.body.classList.add('no-scroll')
+
+      // Set focus after a delay to allow for the annimation
+      this.$nextTick(function(){
+        this.$refs.menuList.firstElementChild.firstElementChild.focus()
+      })
+
+      console.log("Mobile Menu: Open");
     },
 
-    escKeyBoardHandler: function() {
-      console.log('escape key hit')
-      if (this.menuOpen === true)
-      {
-        this.toggleMenu
+    // Main toggle function to flip the menu open and closed
+    // and handle any other logic when the menu flips
+    hideMenu: function () {
+
+      this.isMenuVisible = false
+
+      // Remvoe the no-scroll class
+      document.body.classList.remove('no-scroll')
+
+      // Set the focus to the open menu button
+      this.$refs.menuCloseButton.focus()
+
+      console.log("Mobile Menu: Close");
+
+    },
+
+    // Handle the escape key being hit when the menu is open
+    escKeyHandler: function () {
+      if (this.isMenuVisible === true) {
+        this.hideMenu()
+      }
+    },
+
+    // Handle the tab key being hit when the menu is open
+    tabKeyHandler: function () {
+      console.log('tab key hit',this.$refs.menuLogoLink.firstElementChild)
+
+      if (this.isMenuVisible === true) {
+        // Set focus to the first selectable item
+        this.$refs.menuLogoLink.firstChild.focus()
+      }
+    },
+
+    // Handle the tab key being hit when the menu is open
+    shiftTabKeyHandler: function () {
+      console.log('shift tab key hit')
+      if (this.isMenuVisible === true) {
+        this.$refs.menuCloseButton.focus()
       }
     }
+  },
 
+  beforeDestroy: function () {
+    // Perform the teardown procedure for someLeakyProperty.
+    // (In this case, effectively nothing)
+    this.hideMenu()
   }
 }
 </script>
 
 <style scoped>
 .open {
-  display: inline-flex !important;
+  display: flex !important;
 }
 
 </style>

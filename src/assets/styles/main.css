@@ -31,3 +31,8 @@ a:hover {
 @tailwind components;
 
 @tailwind utilities;
+
+/* Prevent scrolling on body */
+body.no-scroll {
+  overflow: hidden;
+}
