@@ -21,6 +21,7 @@ jobs:
           node-version: '12'
 
       - name: Install dependencies
+        run: npm install --global @gridsome/cli
         run: npm install
 
       - name: Build dist files
