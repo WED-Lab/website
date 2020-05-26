@@ -57,7 +57,9 @@
               <li v-for="menuLink in menuLinks" :key="menuLink.text">
                 <g-link
                   class="text-3xl text-gray-800 font-bold antialiased
-                         lg:text-lg lg:text-gray-700 lg:mr-5"
+                         lg:text-lg lg:text-gray-700 lg:mr-5
+                         transition duration-300 ease-in-out
+                         hover:text-gray-900"
                   exact-active-class="underline pointer-events-none md:pointer-events-auto text-dark-red lg:text-dark-red"
                   :to="menuLink.path">{{ menuLink.text }}</g-link>
               </li>
@@ -130,7 +132,7 @@ export default {
 
       // Set focus after a delay to allow for the annimation
       this.$nextTick(function(){
-        this.$refs.menuList.firstElementChild.firstElementChild.focus()
+        this.$refs.menuCloseButton.focus()
       })
 
       console.log("Mobile Menu: Open");
