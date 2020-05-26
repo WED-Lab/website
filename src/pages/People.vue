@@ -70,7 +70,7 @@ export default {
         },
         {
           'id': 'passed',
-          'heading': 'Passed associates'
+          'heading': 'Past associates'
         }
       ]
     }
