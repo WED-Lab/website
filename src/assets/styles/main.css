@@ -5,7 +5,7 @@ html {
 }
 
 h1 {
-  @apply mb-5 text-4xl text-gray-700 font-medium border-b border-gray-400;
+  @apply mb-5 text-4xl text-gray-700 font-medium border-b border-gray-400 leading-tight;
 }
 
 h2 {
@@ -32,7 +32,7 @@ a:hover {
 
 @tailwind utilities;
 
-/* Prevent scrolling on body */
+/* Prevent scrolling on body - used in the menu*/
 body.no-scroll {
   overflow: hidden;
 }
