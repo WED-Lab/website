@@ -2,7 +2,7 @@
   <div>
     <the-skip-nav />
     <the-header />
-    <the-breadcrumbs />
+    <!-- <the-breadcrumbs /> -->
     <slot/>
     <the-footer />
   </div>
