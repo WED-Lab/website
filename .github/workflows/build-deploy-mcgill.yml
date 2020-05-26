@@ -20,8 +20,10 @@ jobs:
         with:
           node-version: '12'
 
-      - name: Install dependencies
+      - name: Install Gridsome CLI
         run: npm install --global @gridsome/cli
+
+      - name: Install dependencies
         run: npm install
 
       - name: Build dist files
