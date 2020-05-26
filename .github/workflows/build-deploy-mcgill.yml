@@ -37,6 +37,6 @@ jobs:
           ftp_username: ${{ secrets.FTP_USERNAME }}
           ftp_password: ${{ secrets.FTP_PASSWORD }}
           local_source_dir: dist
-          dist_target_dir: "www12/my-app"
+          dist_target_dir: "wwww"
           delete: "true"
           disable_ssl_certificate_verification: true
