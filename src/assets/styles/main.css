@@ -21,7 +21,7 @@ p {
 }
 
 a {
-  @apply text-lg text-dark-turquoise;
+  @apply text-lg text-darker-turquoise;
 }
 
 a:hover {
