@@ -3,7 +3,7 @@
     <main>
       <content-panel backgroundColor="bg-light-gray">
 
-        <h1 class="mb-5 text-5xl text-dark-turquoise font-extrabold">People</h1>
+        <h1>People</h1>
 
         <p>The WED Lab is comprised of interdisciplinary researchers working on projects related to women's empowerment in developing countries.</p>
 
