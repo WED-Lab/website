@@ -1,30 +1,26 @@
 <template>
-  <div>
-    <section>
-
-      <!-- Site Breadcrumbs -->
-      <h2 class="sr-only">Site Breadcrumbs</h2>
-
-      <div class="bg-dark-turquoise">
-
-        <div class="w-2/3 mx-auto">
-        	<nav aria-label="breadcrumb">
-				    <ol class="breadcrumb">
-              <li>
-                <g-link class="text-white" to="/">Home</g-link>
-              </li>
-				    </ol>
-			    </nav>
-        </div>
-
-      </div>
-
-    </section>
-  </div>
+  <content-panel
+    backgroundColor="bg-dark-turquoise"
+    paddingVertical="py-1">
+    <h2 class="sr-only">Site Breadcrumbs - not implemented completely</h2>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li>
+          <g-link class="text-white" to="/">Home</g-link>
+        </li>
+      </ol>
+    </nav>
+  </content-panel>
 </template>
 
 <script>
+import ContentPanel from '~/components/ui/panel/Content.vue'
+
 export default {
-  name: 'Breadcrumbs'
+  name: 'Breadcrumbs',
+
+  components: {
+    ContentPanel
+  }
 }
 </script>

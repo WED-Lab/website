@@ -5,15 +5,15 @@ html {
 }
 
 h1 {
-  @apply mb-5 text-4xl text-dark-turquoise font-medium;
+  @apply mb-5 text-4xl text-gray-700 font-medium border-b border-gray-400 leading-tight;
 }
 
 h2 {
-  @apply mt-10 mb-5 text-3xl text-dark-turquoise font-bold;
+  @apply mt-5 mb-5 text-3xl text-gray-700 font-medium;
 }
 
 h3 {
-  @apply mt-2 mb-5 text-2xl text-dark-turquoise font-bold;
+  @apply mt-2 mb-5 text-2xl text-gray-600 font-medium;
 }
 
 p {
@@ -21,7 +21,7 @@ p {
 }
 
 a {
-  @apply text-dark-turquoise;
+  @apply text-lg text-darker-turquoise;
 }
 
 a:hover {
@@ -31,3 +31,8 @@ a:hover {
 @tailwind components;
 
 @tailwind utilities;
+
+/* Prevent scrolling on body - used in the menu*/
+body.no-scroll {
+  overflow: hidden;
+}

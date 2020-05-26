@@ -1,7 +1,9 @@
 <template>
-  <div :class="outerClasses">
-    <div class="mx-auto" :class="innerClasses">
-      <slot />
+  <div :class="backgroundColor">
+    <div :class="outerClasses">
+      <div class="mx-auto" :class="innerClasses">
+        <slot />
+      </div>
     </div>
   </div>
 </template>
@@ -18,7 +20,7 @@ export default {
   computed: {
 
     outerClasses: function () {
-      return this.backgroundColor + ' ' +
+      return ( this.isFluid ? '' : 'container' ) + ' ' +
              this.paddingVertical + ' ' +
              this.paddingHorizontal
     },
@@ -55,6 +57,12 @@ export default {
       required: false,
       default: 'px-10'
     },
+
+    isFluid: {
+      type: Boolean,
+      required: false,
+      default: false
+    }
 
 
   }

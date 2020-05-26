@@ -4,8 +4,8 @@
       <h2 class="text-5xl text-center text-dark-turquoise font-extrabold">Research Projects</h2>
 
       <div class="px-2">
-        <div class="flex flex-wrap -mx-2">
-          <div class="w-1/2 px-2 my-4">
+        <div class="flex flex-col md:flex-row flex-wrap -mx-2">
+          <div class="w-full md:w-1/2 px-2 my-4">
             <div class="gg-lab-home-project-feature">
               <g-link
                 class=""
@@ -18,7 +18,7 @@
               </g-link>
             </div>
           </div>
-          <div class="w-1/2 px-2 my-4">
+          <div class="w-full md:w-1/2 px-2 my-4">
             <div class="gg-lab-home-project-feature">
               <g-link
                 class=""
@@ -31,7 +31,7 @@
               </g-link>
             </div>
           </div>
-          <div class="w-1/2 px-2 my-4">
+          <div class="w-full md:w-1/2 px-2 my-4">
             <div class="gg-lab-home-project-feature">
               <g-link
                 class=""
@@ -44,7 +44,7 @@
               </g-link>
             </div>
           </div>
-          <div class="w-1/2 px-2 my-4">
+          <div class="w-full md:w-1/2 px-2 my-4">
             <div class="gg-lab-home-project-feature">
               <g-link
                 class=""

@@ -21,7 +21,7 @@ import Partners from '~/components/home/Partners.vue'
 
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Home'
   },
   components: {
     Hero,

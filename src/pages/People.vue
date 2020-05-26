@@ -3,11 +3,12 @@
     <main>
       <content-panel backgroundColor="bg-light-gray">
 
-        <h1 class="mb-5 text-5xl text-dark-turquoise font-extrabold">People</h1>
+        <h1>People</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+        <p>The WED Lab is comprised of interdisciplinary researchers working on projects related to women's empowerment in developing countries.</p>
 
         <div
+          class="pb-10"
           v-for="category in categories"
           v-bind:key="category.id">
           <section>
@@ -65,11 +66,11 @@ export default {
         },
         {
           'id': 'practice',
-          'heading': 'Professors of Practice'
+          'heading': 'Professors of practice'
         },
         {
-          'id': 'research',
-          'heading': 'Research Associates'
+          'id': 'passed',
+          'heading': 'Past associates'
         }
       ]
     }
@@ -78,11 +79,7 @@ export default {
   methods: {
 
     correctCategoryFilter: function (id) {
-
-      console.log('people query', this.$page.people.edges)
-
       return this.$page.people.edges.filter( function (el) {
-        console.log('filter query', el.node.category, id)
         return el.node.category.toLowerCase() === id.toLowerCase()
       })
     }

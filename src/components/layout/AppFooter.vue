@@ -2,8 +2,8 @@
   <div>
     <footer>
       <div class="bg-dark-turquoise">
-        <div class="w-5/6 mx-auto p-10">
-          <div class="flex flex-col md:flex-row justify-between">
+        <div class="w-full md:w-5/6 container mx-auto p-10">
+          <div class="flex flex-col md:flex-row justify-between w-full">
             <div class="">
               <ul class="flex flex-col">
                 <li>
@@ -26,8 +26,8 @@
                 </li>
               </ul>
             </div>
-            <div class="w-2/6">
-               <div class="flex justify-center mt-3">
+            <div class="w-full border-t border-gray-300 mt-10 sm:mt-0 sm:border-none sm:w-2/6">
+               <div class="flex justify-center mt-10 sm:mt-3">
                 <ul>
                   <li class="flex items-start">
                     <div class="bg-light-turquoise rounded-full p-2 fill-current text-white">
@@ -67,13 +67,13 @@
         </div>
       </div>
       <div class="bg-white">
-        <div class="w-5/6 mx-auto p-10">
+        <div class="container w-5/6 mx-auto p-10">
           <div class="flex flex-col md:flex-row justify-between items-center">
-            <div>
+            <div class="order-2">
               <h3 class="sr-only">Copyright information:</h3>
-              <p class="text-sm text-gray-700">Copyright © 2020 McGill University</p>
+              <p class="text-center md:text-right text-sm text-gray-700">Copyright © 2020 McGill University</p>
             </div>
-            <div class="w-40">
+            <div class="order-1 pb-10 md:pb-0 w-40">
               <h3 class="sr-only">Brand Logo:</h3>
               <g-image alt="Example image" src="~/assets/images/brand/wed-lab.png" fit="contain" quality="100" />
             </div>
