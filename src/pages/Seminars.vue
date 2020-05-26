@@ -3,7 +3,7 @@
     <main>
       <content-panel>
 
-        <h1 class="mb-5 text-5xl text-dark-turquoise font-extrabold">Seminars</h1>
+        <h1 id="maincontent">Seminars</h1>
 
         <p>The WED Lab, in partnership with Canada's International Development Research Centre and funding from Social Sciences and Humanities Research Council hosted a series of seven research-to-practice training seminars in 2019 for students, scholars, practitioners and policymakers on state of the art research in core areas of women’s empowerment in development.
 
