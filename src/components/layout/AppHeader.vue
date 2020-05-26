@@ -146,7 +146,10 @@ export default {
       document.body.classList.remove('no-scroll')
 
       // Set the focus to the open menu button
-      this.$refs.menuCloseButton.focus()
+      if (this.$refs.menuCloseButton)
+      {
+        this.$refs.menuCloseButton.focus()
+      }
 
       console.log("Mobile Menu: Close");
 
