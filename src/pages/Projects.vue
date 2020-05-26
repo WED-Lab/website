@@ -3,7 +3,7 @@
     <main>
       <content-panel>
 
-        <h1 class="mb-5 text-5xl text-dark-turquoise font-extrabold">Projects</h1>
+        <h1>Projects</h1>
 
         <p>WED Lab members are engaged in projects related to women's empowerment in international development. Ongoing and closed projects are listed on this page.</p>
 
