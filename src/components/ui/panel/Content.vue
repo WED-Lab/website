@@ -44,13 +44,13 @@ export default {
     paddingVertical: {
       type: String,
       required: false,
-      default: 'md:py-20'
+      default: 'py-10 md:py-20'
     },
 
     paddingHorizontal: {
       type: String,
       required: false,
-      default: 'px-5 md:px-10'
+      default: 'px-6 md:px-10'
     },
 
   }
