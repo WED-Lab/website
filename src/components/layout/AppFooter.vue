@@ -1,91 +1,116 @@
 <template>
   <div>
     <footer>
-      <div class="bg-dark-turquoise">
-        <div class="w-full md:w-5/6 container mx-auto p-10">
-          <div class="flex flex-col md:flex-row justify-between w-full">
-            <div class="">
-              <ul class="flex flex-col">
-                <li>
-                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/">Home</g-link>
-                </li>
-                <li>
-                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/seminars/">Seminars</g-link>
-                </li>
-                <li>
-                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/people/">People</g-link>
-                </li>
-                <li>
-                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/projects/">Projects</g-link>
-                </li>
-                <li>
-                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/publications/">Publications</g-link>
-                </li>
-                <li>
-                  <g-link class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-light" to="/about/">About</g-link>
-                </li>
-              </ul>
-            </div>
-            <div class="w-full border-t border-gray-300 mt-10 sm:mt-0 sm:border-none sm:w-2/6">
-               <div class="flex justify-center mt-10 sm:mt-3">
-                <ul>
-                  <li class="flex items-start">
-                    <div class="bg-light-turquoise rounded-full p-2 fill-current text-white">
-                      <!--
-                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path class="primary" d="M11 3.05V2a1 1 0 0 1 2 0v1.05A10 10 0 0 1 22 13c0 1.33-2 1.33-2 0a2 2 0 1 0-4 0c0 1.33-2 1.33-2 0a2 2 0 1 0-4 0c0 1.33-2 1.33-2 0a2 2 0 1 0-4 0c0 1.33-2 1.33-2 0a10 10 0 0 1 9-9.95z"/><path class="secondary" d="M11 14a1 1 0 0 1 2 0v5a3 3 0 0 1-6 0 1 1 0 0 1 2 0 1 1 0 0 0 2 0v-5z"/></svg>
-                      -->
-                      <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-
-                        <path fill="#fff" d="M17.051,3.302H2.949c-0.866,0-1.567,0.702-1.567,1.567v10.184c0,0.865,0.701,1.568,1.567,1.568h14.102c0.865,0,1.566-0.703,1.566-1.568V4.869C18.617,4.003,17.916,3.302,17.051,3.302z M17.834,15.053c0,0.434-0.35,0.783-0.783,0.783H2.949c-0.433,0-0.784-0.35-0.784-0.783V4.869c0-0.433,0.351-0.784,0.784-0.784h14.102c0.434,0,0.783,0.351,0.783,0.784V15.053zM15.877,5.362L10,9.179L4.123,5.362C3.941,5.245,3.699,5.296,3.581,5.477C3.463,5.659,3.515,5.901,3.696,6.019L9.61,9.86C9.732,9.939,9.879,9.935,10,9.874c0.121,0.062,0.268,0.065,0.39-0.014l5.915-3.841c0.18-0.118,0.232-0.36,0.115-0.542C16.301,5.296,16.059,5.245,15.877,5.362z"></path>
-											</svg>
-                    </div>
-                    <address class="font-light tracking-wider text-white not-italic text-lg ml-3">
-                      Institute for the Study of International Development<br />
-                      Peterson Hall<br >
-                      3460 McTavish Street<br />
-                      Montréal, Québec, H3A 0E6
-                    </address>
-                  </li>
-                  <li class="flex items-start mt-5">
-                    <div class="bg-light-turquoise rounded-full p-2 fill-current text-white">
-                      <!--
-                        <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path class="primary" d="M11 3.05V2a1 1 0 0 1 2 0v1.05A10 10 0 0 1 22 13c0 1.33-2 1.33-2 0a2 2 0 1 0-4 0c0 1.33-2 1.33-2 0a2 2 0 1 0-4 0c0 1.33-2 1.33-2 0a2 2 0 1 0-4 0c0 1.33-2 1.33-2 0a10 10 0 0 1 9-9.95z"/><path class="secondary" d="M11 14a1 1 0 0 1 2 0v5a3 3 0 0 1-6 0 1 1 0 0 1 2 0 1 1 0 0 0 2 0v-5z"/></svg>
-                      -->
-                      <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-
-                        <path fill="#fff" d="M17.051,3.302H2.949c-0.866,0-1.567,0.702-1.567,1.567v10.184c0,0.865,0.701,1.568,1.567,1.568h14.102c0.865,0,1.566-0.703,1.566-1.568V4.869C18.617,4.003,17.916,3.302,17.051,3.302z M17.834,15.053c0,0.434-0.35,0.783-0.783,0.783H2.949c-0.433,0-0.784-0.35-0.784-0.783V4.869c0-0.433,0.351-0.784,0.784-0.784h14.102c0.434,0,0.783,0.351,0.783,0.784V15.053zM15.877,5.362L10,9.179L4.123,5.362C3.941,5.245,3.699,5.296,3.581,5.477C3.463,5.659,3.515,5.901,3.696,6.019L9.61,9.86C9.732,9.939,9.879,9.935,10,9.874c0.121,0.062,0.268,0.065,0.39-0.014l5.915-3.841c0.18-0.118,0.232-0.36,0.115-0.542C16.301,5.296,16.059,5.245,15.877,5.362z"></path>
-											</svg>
-                    </div>
-                    <div class="font-light tracking-wider text-white not-italic text-lg ml-3">
-                      <span class="sr-only">Email: </span><a class="text-white hover:underline" href="mailto:wedlab.isid@mcgill.ca">wedlab.isid@mcgill.ca</a>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
+      <h2 class="sr-only">Footer Information</h2>
+      <content-panel backgroundColor="bg-dark-turquoise">
+        <div class="flex flex-col md:flex-row md:items-start md:justify-between">
+          <nav class="mb-10 md:w-1/2">
+            <h3 class="sr-only">Site menu links</h3>
+            <ul class="flex flex-col">
+              <li v-for="menuLink in menuLinks" :key="menuLink.text">
+                <g-link
+                  class="py-2 w-full block text-white hover:underline text-lg tracking-wider font-semibold"
+                  :to="menuLink.path">{{ menuLink.text }}</g-link>
+              </li>
+            </ul>
+          </nav>
+          <div class="border-t border-white md:border-none md:w-1/2">
+            <h3 class="sr-only">Contact information</h3>
+            <ul class="list-none">
+              <li>
+                <div class="mt-10 md:mt-0 flex items-start">
+                  <svg class="h-12 w-12 fill-current text-blue inline-block" viewBox="0 0 20 20">
+                    <path fill="#fff" d="M10.292,4.229c-1.487,0-2.691,1.205-2.691,2.691s1.205,2.691,2.691,2.691s2.69-1.205,2.69-2.691
+                      S11.779,4.229,10.292,4.229z M10.292,8.535c-0.892,0-1.615-0.723-1.615-1.615S9.4,5.306,10.292,5.306
+                      c0.891,0,1.614,0.722,1.614,1.614S11.184,8.535,10.292,8.535z M10.292,1C6.725,1,3.834,3.892,3.834,7.458
+                      c0,3.567,6.458,10.764,6.458,10.764s6.458-7.196,6.458-10.764C16.75,3.892,13.859,1,10.292,1z M4.91,7.525
+                      c0-3.009,2.41-5.449,5.382-5.449c2.971,0,5.381,2.44,5.381,5.449s-5.381,9.082-5.381,9.082S4.91,10.535,4.91,7.525z"></path>
+                  </svg>
+                  <h4 class="sr-only">Physical address</h4>
+                  <address class="ml-2 w-2/3 tracking-wider text-white not-italic">
+                    Institute for the Study of International Development<br />
+                    Peterson Hall<br >
+                    3460 McTavish Street<br />
+                    Montréal, Québec, H3A&nbsp;0E6
+                  </address>
+                </div>
+              </li>
+              <li>
+                <div class="mt-10 flex items-start">
+                  <svg class="h-12 w-12 fill-current text-blue inline-block" viewBox="0 0 20 20">
+                    <path fill="#fff" d="M12.871,9.337H7.377c-0.304,0-0.549,0.246-0.549,0.549c0,0.303,0.246,0.55,0.549,0.55h5.494
+                      c0.305,0,0.551-0.247,0.551-0.55C13.422,9.583,13.176,9.337,12.871,9.337z M15.07,6.04H5.179c-0.304,0-0.549,0.246-0.549,0.55
+                      c0,0.303,0.246,0.549,0.549,0.549h9.891c0.303,0,0.549-0.247,0.549-0.549C15.619,6.286,15.373,6.04,15.07,6.04z M17.268,1.645
+                      H2.981c-0.911,0-1.648,0.738-1.648,1.648v10.988c0,0.912,0.738,1.648,1.648,1.648h4.938l2.205,2.205l2.206-2.205h4.938
+                      c0.91,0,1.648-0.736,1.648-1.648V3.293C18.916,2.382,18.178,1.645,17.268,1.645z M17.816,13.732c0,0.607-0.492,1.1-1.098,1.1
+                      h-4.939l-1.655,1.654l-1.656-1.654H3.531c-0.607,0-1.099-0.492-1.099-1.1v-9.89c0-0.607,0.492-1.099,1.099-1.099h13.188
+                      c0.605,0,1.098,0.492,1.098,1.099V13.732z"></path>
+                  </svg>
+                  <h4 class="sr-only">Email address</h4>
+                  <a class="ml-2 w-1/3 text-white text-lg hover:underline" href="mailto:wedlab.isid@mcgill.ca">wedlab.isid@mcgill.ca</a>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
-      </div>
-      <div class="bg-white">
-        <div class="container w-5/6 mx-auto p-10">
-          <div class="flex flex-col md:flex-row justify-between items-center">
-            <div class="order-2">
-              <h3 class="sr-only">Copyright information:</h3>
-              <p class="text-center md:text-right text-sm text-gray-700">Copyright © 2020 McGill University</p>
-            </div>
-            <div class="order-1 pb-10 md:pb-0 w-40">
-              <h3 class="sr-only">Brand Logo:</h3>
-              <g-image alt="Example image" src="~/assets/images/brand/wed-lab.png" fit="contain" quality="100" />
-            </div>
+      </content-panel>
+      <content-panel backgroundColor="bg-white" paddingVertical="py-10">
+        <div class="flex flex-col items-center md:flex-row md:justify-between">
+          <div class="order-2 mt-10 md:mt-0">
+            <h3 class="sr-only">Copyright information:</h3>
+            <p class="text-center md:text-right text-sm text-gray-700 pb-0 mb-0">Copyright © 2020 McGill University</p>
+          </div>
+          <div class="order-1 w-40">
+            <h3 class="sr-only">Brand Logo:</h3>
+            <g-image alt="Example image" src="~/assets/images/brand/wed-lab.png" fit="contain" quality="100" />
           </div>
         </div>
-      </div>
+      </content-panel>
     </footer>
   </div>
 </template>
 
 <script>
+import ContentPanel from '~/components/ui/panel/Content.vue'
+
 export default {
-  name: 'Footer'
+  name: 'Footer',
+
+  data: function () {
+    return {
+      menuLinks: [
+        {
+          text: 'Home',
+          path: '/'
+        },
+        {
+          text: 'Seminars',
+          path: '/seminars/'
+        },
+        {
+          text: 'People',
+          path: '/people/'
+        },
+        {
+          text: 'Projects',
+          path: '/projects/'
+        },
+        {
+          text: 'Publications',
+          path: '/publications/'
+        },
+        {
+          text: 'About',
+          path: '/about/'
+        }
+      ]
+    }
+  },
+
+  components: {
+
+    ContentPanel
+
+  }
 }
 </script>
