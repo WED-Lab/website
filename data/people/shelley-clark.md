@@ -4,7 +4,7 @@ firstName: Shelley
 lastName: Clark
 category: Faculty
 positionTitle: James McGill Professor of Sociology
-image: /images/people/shelley-clark.jpg
+image: ./images/shelley-clark.jpg
 readMore: https://www.mcgill.ca/sociology/faculty/clark#BIO
 ---
 

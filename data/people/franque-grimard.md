@@ -4,7 +4,7 @@ firstName: Franque
 lastName: Grimard
 category: Faculty
 positionTitle: Associate Professor, Department of Economics
-image: /images/people/franque-grimard.jpg
+image: ./images/franque-grimard.jpg
 readMore: https://www.mcgill.ca/economics/franque-grimard
 ---
 

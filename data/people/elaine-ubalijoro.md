@@ -4,7 +4,7 @@ firstName: Éliane
 lastName: Ubalijoro
 category: practice
 positionTitle: Professor of Practice, Institute for the Study of International Development
-image: /images/people/eliane-ubalijoro.jpg
+image: ./images/eliane-ubalijoro.jpg
 readMore: 
 ---
 

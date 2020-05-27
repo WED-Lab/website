@@ -4,7 +4,7 @@ firstName: Kazue
 lastName: Takamura
 category: Faculty
 positionTitle: Faculty Lecturer, Institute for the Study of International Development
-image: /images/people/kazue-takamura.jpg
+image: ./images/kazue-takamura.jpg
 readMore: 
 ---
 

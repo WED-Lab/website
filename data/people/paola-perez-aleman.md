@@ -4,7 +4,7 @@ firstName: Paola
 lastName: Perez-Aleman
 category: Faculty
 positionTitle: Associate Professor, Desautels Faculty of Management
-image: /images/people/paola-perez-aleman.jpg
+image: ./images/paola-perez-aleman.jpg
 readMore: https://www.mcgill.ca/desautels/paola-perez-aleman
 ---
 

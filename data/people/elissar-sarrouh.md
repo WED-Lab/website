@@ -4,7 +4,7 @@ firstName: Elissar
 lastName: Sarrouh
 category: practice
 positionTitle: Professor of Practice, Institute for the Study of International Development
-image: /images/people/elissar-sarrouh.jpg
+image: ./images/elissar-sarrouh.jpg
 readMore: 
 ---
 

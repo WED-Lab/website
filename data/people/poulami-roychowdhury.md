@@ -4,7 +4,7 @@ firstName: Poulami
 lastName: Roychowdhury
 category: Faculty
 positionTitle: Assistant Professor, Sociology
-image: /images/people/poulami-roychowdhury.jpg
+image: ./images/poulami-roychowdhury.jpg
 readMore: https://www.mcgill.ca/sociology/faculty/poulami-roychowdhury
 ---
 

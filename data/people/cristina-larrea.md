@@ -4,7 +4,7 @@ firstName: Cristina
 lastName: Larrea
 category: practice
 positionTitle: Professor of Practice, Institute for the Study of International Development
-image: /images/people/cristina-larrea.jpg
+image: ./images/cristina-larrea.jpg
 readMore: 
 ---
 

@@ -4,7 +4,7 @@ firstName: Sarah
 lastName: Brauner-Otto
 category: Faculty
 positionTitle: Director, Centre for Population Dynamics and Associate Professor, Sociology
-image: /images/people/sarah-brauner-otto.jpg
+image: ./images/sarah-brauner-otto.jpg
 readMore: https://www.mcgill.ca/sociology/faculty/sarah-brauner-otto
 ---
 

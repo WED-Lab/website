@@ -4,7 +4,7 @@ firstName: Sonia
 lastName: Laszlo
 category: Faculty
 positionTitle: Lab Program Lead and Associate Professor, Department of Economics
-image: /images/people/sonia-laszlo.jpg
+image: ./images/sonia-laszlo.jpg
 readMore: https://sites.google.com/site/sonialaszlo/home
 ---
 
