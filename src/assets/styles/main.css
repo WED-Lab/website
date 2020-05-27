@@ -5,7 +5,7 @@ html {
 }
 
 h1 {
-  @apply mb-5 text-4xl text-gray-700 font-medium border-b border-gray-400 leading-tight;
+  @apply pb-2 mb-5 text-4xl text-gray-700 font-bold border-b border-gray-400 leading-tight;
 }
 
 h2 {
