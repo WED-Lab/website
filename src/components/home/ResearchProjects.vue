@@ -4,7 +4,7 @@
       <section>
         <h2 class="text-5xl text-center font-bold">Research Projects</h2>
 
-        <p class="w-3/5 mx-auto my-10 text-center">WED Lab members are engaged in projects related to women's empowerment in international development. Ongoing and closed projects are listed on this page.</p>
+        <p class="w-3/5 mx-auto my-10 text-center">WED Lab members are engaged in projects related to women's empowerment in international development.</p>
 
         <p class="text-center">
           <g-link class="text-xl font-bold" to="/projects/">See all projects</g-link>
