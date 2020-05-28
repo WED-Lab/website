@@ -1,74 +1,67 @@
 <template>
   <div>
-    <panel>
-      <h2 class="text-5xl text-center text-dark-turquoise font-extrabold">Research Projects</h2>
+    <panel backgroundColor="bg-light-gray" width="w-full" paddingHorizontal="px-0 sm:px-10">
+      <section>
+        <h2 class="text-5xl text-center font-bold">Research Projects</h2>
 
-      <div class="px-2">
-        <div class="flex flex-col md:flex-row flex-wrap -mx-2">
-          <div class="w-full md:w-1/2 px-2 my-4">
-            <div class="gg-lab-home-project-feature">
-              <g-link
-                class=""
-                to="/projects/">
-                <g-image
-                  class="gg-lab-home-project-feature-img rounded"
-                  src="~/assets/images/home/research-projects/project-03.jpg"
-                  alt="" />
-                  <div class="gg-lab-home-project-feature-text">Cash Transfers, Fertility and Women's Empowerment</div>
-              </g-link>
+        <p class="w-3/5 mx-auto my-10 text-center">WED Lab members are engaged in projects related to women's empowerment in international development. Ongoing and closed projects are listed on this page.</p>
+
+        <p class="text-center">
+          <g-link class="text-xl font-bold" to="/projects/">See all projects</g-link>
+        </p>
+
+        <div v-if="$static.projects.edges.length > 0">
+          <div class="mt-10 md:mx-10 mb-10 bg-white rounded-lg sm:shadow-lg pt-5 px-20 pb-5">
+
+            <div
+              v-for="edge in $static.projects.edges"
+              :key="edge.node.title"
+              class="my-20 flex flex-col lg:flex-row items-center">
+              <div class="order-2 lg:ml-10 text-center lg:text-left">
+                <h3 class="text-2xl text-gray-800 font-bold mb-0 mt-5 lg:mt-0">{{ edge.node.title }}</h3>
+                <p class="mt-2 text-gray-600"><span class="sr-only">Project participant: </span>{{ edge.node.author }}</p>
+                  <div class="mt-6">
+                    <g-link
+                      :to="edge.node.path"
+                      class="bg-dark-turquoise text-white px-5 py-3 font-semibold rounded hover:bg-darker-turquoise hover:no-underline">Read more</g-link>
+                  </div>
+              </div>
+              <g-image
+                alt=""
+                :src="edge.node.cover_image"
+                quality="70"
+                class="order-1 w-full lg:w-1/3 rounded-lg rounded-lg object-cover" />
             </div>
-          </div>
-          <div class="w-full md:w-1/2 px-2 my-4">
-            <div class="gg-lab-home-project-feature">
-              <g-link
-                class=""
-                to="/projects/">
-                <g-image
-                  class="gg-lab-home-project-feature-img rounded"
-                   src="~/assets/images/home/research-projects/project-06.jpg"
-                  alt="" />
-                  <div class="gg-lab-home-project-feature-text">Cash Transfers, Fertility and Women's Empowerment</div>
-              </g-link>
-            </div>
-          </div>
-          <div class="w-full md:w-1/2 px-2 my-4">
-            <div class="gg-lab-home-project-feature">
-              <g-link
-                class=""
-                to="/projects/">
-                <g-image
-                  class="gg-lab-home-project-feature-img rounded"
-                   src="~/assets/images/home/research-projects/project-05.jpg"
-                  alt="" />
-                  <div class="gg-lab-home-project-feature-text">Cash Transfers, Fertility and Women's Empowerment</div>
-              </g-link>
-            </div>
-          </div>
-          <div class="w-full md:w-1/2 px-2 my-4">
-            <div class="gg-lab-home-project-feature">
-              <g-link
-                class=""
-                to="/projects/">
-                <g-image
-                  class="gg-lab-home-project-feature-img rounded"
-                   src="~/assets/images/home/research-projects/project-07.jpg"
-                  alt="" />
-                  <div class="gg-lab-home-project-feature-text">Cash Transfers, Fertility and Women's Empowerment</div>
-              </g-link>
-            </div>
+
           </div>
         </div>
-      </div>
 
+      </section>
     </panel>
   </div>
 </template>
+
+<static-query>
+query {
+	projects: allProject (limit:4, filter: { home_feature: {eq: true} }) {
+    edges {
+      node {
+        title
+        author
+        cover_image
+        path
+      }
+    }
+  }
+}
+</static-query>
 
 <script>
 import Panel from '~/components/ui/panel/Feature.vue'
 
 export default {
   name: 'HomeResearchProjects',
+
   components: {
     Panel
   }
@@ -76,44 +69,4 @@ export default {
 </script>
 
 <style scoped>
-/* ==========================================================================
-   Global Governance Lab Home Page Styles
-   Borrowing from GG site - REFACTOR
-   ========================================================================== */
-
-.gg-lab-home-project-feature {
-    position: relative;
-    width: 100%;
-}
-
-.gg-lab-home-project-feature .gg-lab-home-project-feature-img {
-    display: block;
-    width: 100%;
-    height: auto;
-    filter: brightness(70%);
-}
-
-.gg-lab-home-project-feature .gg-lab-home-project-feature-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    font-weight: 700;
-    font-size:2.1rem;
-    line-height: 1.1;
-    color: #ffffff;
-    padding: 40px;
-    text-align: center;
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-
-    .gg-lab-home-project-feature .gg-lab-home-project-feature-text {
-        font-size:1.1rem;
-        padding: 0px;
-    }
-
-}
 </style>

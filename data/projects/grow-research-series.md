@@ -4,6 +4,7 @@ project_status: open
 cover_image: ./images/grow-research-series.jpg
 author: Partnership including ISID
 read_more: http://grow.research.mcgill.ca/
+home_feature: true
 ---
 
 <p>The GrOW Research Series brings together scholarly research on women’s economic empowerment and economic growth in low-income countries. It is housed at the Institute for the Study of International Development at McGill University in Montreal, Canada.</p>

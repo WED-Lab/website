@@ -3,6 +3,7 @@ title: Female Labor Force Participation and Child Outcomes
 project_status: open
 cover_image: ./images/labour-force-participation-child-outcomes.jpg
 author: Partnership including Sarah Brauner-Otto
+home_feature: true
 ---
 
 <p>Women comprise an ever-larger share of the non-family labor market across the globe. This transition alters family dynamics, with empirical evidence indicating influences on the health and educational outcomes of children. Although previous research has explored this relationship, those efforts have been unsuccessful in separating the influence of women's labor-force participation from other concurrent changes happening at the community and household level, such as changing market structures and increasing employment opportunities, or changing employment experiences of other household members. Additionally, most of the existing research has been conducted in wealthy countries where this transition occurred decades prior.</p>
