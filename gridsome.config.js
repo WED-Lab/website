@@ -4,26 +4,20 @@
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
-const tailwind = require('tailwindcss')
-const purgecss = require('@fullhuman/postcss-purgecss')
-
-const postcssPlugins = [
-	tailwind(),
-]
-
-if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('./purgecss.config.js')))
-
 module.exports = {
     siteName: 'Women\'s Empowerment in Development Lab',
     siteUrl: 'https://womensempowerment.lab.mcgill.ca/',
 
     titleTemplate: '%s | Women\'s Empowerment in Development Lab',
     css: {
-        loaderOptions: {
-            postcss: {
-                plugins: postcssPlugins,
-            },
+      loaderOptions: {
+        postcss: {
+          plugins: [
+            require('tailwindcss'),
+            require('autoprefixer'),
+          ],
         },
+      },
     },
 
     // Favicon setup
