@@ -16,7 +16,7 @@
             <div
               v-for="edge in $static.projects.edges"
               :key="edge.node.title"
-              class="my-16 p-10 flex flex-col lg:flex-row items-center rounded-lg hover:bg-light-gray hover:shadow-xl transition duration-500 ease-in-out">
+              class="my-12 p-10 flex flex-col lg:flex-row items-center rounded-lg hover:bg-light-gray hover:shadow-xl transition duration-500 ease-in-out">
               <div class="order-2 lg:ml-10 text-center lg:text-left">
                 <h3 class="text-2xl text-gray-800 font-bold mb-0 mt-5 lg:mt-0">{{ edge.node.title }}</h3>
                 <p class="mt-2 text-gray-600"><span class="sr-only">Project participant: </span>{{ edge.node.author }}</p>
