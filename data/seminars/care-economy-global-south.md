@@ -35,4 +35,5 @@ this has increased significantly with children out-of-school, heightened care ne
 
 * Dr. Patricia Kitsao-Wekulo (APHRC)
 * Jessica Hum - Antonopoulos (OXFAM)
-* Afzal Habib (KIDOGO)
+* Sabrina Habib
+* Margaret Kakande (Ministry of Finance, Uganda)
