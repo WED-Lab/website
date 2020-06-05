@@ -3,6 +3,7 @@
     <main>
       <hero />
       <seminars />
+      <about />
       <latest-works />
       <research-projects />
       <promotional-video />
@@ -13,6 +14,7 @@
 
 <script>
 import Hero from '~/components/home/Hero.vue'
+import About from '~/components/home/About.vue'
 import Seminars from '~/components/home/Seminars.vue'
 import LatestWorks from '~/components/home/LatestWorks.vue'
 import ResearchProjects from '~/components/home/ResearchProjects.vue'
@@ -25,6 +27,7 @@ export default {
   },
   components: {
     Hero,
+    About,
     Seminars,
     LatestWorks,
     ResearchProjects,

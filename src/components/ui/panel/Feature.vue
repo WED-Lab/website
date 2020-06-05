@@ -43,7 +43,7 @@ export default {
     width: {
       type: String,
       required: false,
-      default: 'w-5/6'
+      default: 'w-full sm:w-5/6'
     },
 
     paddingVertical: {
@@ -55,7 +55,7 @@ export default {
     paddingHorizontal: {
       type: String,
       required: false,
-      default: 'px-10'
+      default: 'px-6 md:px-10'
     },
 
     isFluid: {
