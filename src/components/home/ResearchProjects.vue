@@ -2,21 +2,21 @@
   <div>
     <panel width="w-full" paddingHorizontal="px-0 sm:px-10">
       <section>
-        <h2 class="text-5xl text-center font-bold">Research Projects</h2>
+        <h2 class="text-4xl md:text-5xl text-center font-bold">Research Projects</h2>
 
-        <p class="w-3/5 mx-auto my-10 text-center">WED Lab members are engaged in projects related to women's empowerment in international development.</p>
+        <p class="px-2 md:px-0 md:w-3/5 mx-auto my-10 text-center">WED Lab members are engaged in projects related to women's empowerment in international development.</p>
 
         <p class="text-center">
           <g-link class="text-xl font-bold" to="/projects/">See all projects</g-link>
         </p>
 
         <div v-if="$static.projects.edges.length > 0">
-          <div class="mt-5 md:mx-10 mb-10 px-20 pb-5">
+          <div class="mt-5 md:mx-10 mb-10 px-0 md:px-10 pb-5">
 
             <div
               v-for="edge in $static.projects.edges"
               :key="edge.node.title"
-              class="my-12 p-10 flex flex-col lg:flex-row items-center rounded-lg hover:bg-light-gray hover:shadow-xl transition duration-500 ease-in-out">
+              class="my-12 p-5 md:p-10 flex flex-col lg:flex-row items-center rounded-lg hover:bg-light-gray hover:shadow-xl transition duration-500 ease-in-out">
               <div class="order-2 lg:ml-10 text-center lg:text-left">
                 <h3 class="text-2xl text-gray-800 font-bold mb-0 mt-5 lg:mt-0">{{ edge.node.title }}</h3>
                 <p class="mt-2 text-gray-600"><span class="sr-only">Project participant: </span>{{ edge.node.author }}</p>
