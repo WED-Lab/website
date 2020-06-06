@@ -2,7 +2,7 @@
   <div>
     <footer>
       <h2 class="sr-only">Footer Information</h2>
-      <panel backgroundColor="bg-dark-turquoise">
+      <panel backgroundColor="bg-dark-turquoise" paddingVertical="py-10">
         <div class="flex flex-col md:flex-row md:items-start md:justify-between">
           <nav class="mb-10 md:w-1/2 lg:2/3">
             <h3 class="sr-only">Site menu links</h3>
