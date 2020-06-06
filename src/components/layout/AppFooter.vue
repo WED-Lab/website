@@ -2,9 +2,9 @@
   <div>
     <footer>
       <h2 class="sr-only">Footer Information</h2>
-      <content-panel backgroundColor="bg-dark-turquoise">
+      <panel backgroundColor="bg-dark-turquoise">
         <div class="flex flex-col md:flex-row md:items-start md:justify-between">
-          <nav class="mb-10 md:w-1/2">
+          <nav class="mb-10 md:w-1/2 lg:2/3">
             <h3 class="sr-only">Site menu links</h3>
             <ul class="flex flex-col">
               <li v-for="menuLink in menuLinks" :key="menuLink.text">
@@ -14,7 +14,7 @@
               </li>
             </ul>
           </nav>
-          <div class="border-t border-white md:border-none md:w-1/2">
+          <div class="border-t border-white md:border-none md:w-1/2 lg:1/3">
             <h3 class="sr-only">Contact information</h3>
             <ul class="list-none">
               <li>
@@ -53,8 +53,8 @@
             </ul>
           </div>
         </div>
-      </content-panel>
-      <content-panel backgroundColor="bg-white" paddingVertical="py-10">
+      </panel>
+      <panel backgroundColor="bg-white" paddingVertical="py-10">
         <div class="flex flex-col items-center md:flex-row md:justify-between">
           <div class="order-2 mt-10 md:mt-0">
             <h3 class="sr-only">Copyright information:</h3>
@@ -65,13 +65,14 @@
             <g-image alt="Example image" src="~/assets/images/brand/wed-lab.png" fit="contain" quality="100" />
           </div>
         </div>
-      </content-panel>
+      </panel>
     </footer>
   </div>
 </template>
 
 <script>
-import ContentPanel from '~/components/ui/panel/Content.vue'
+import Panel from '~/components/ui/panel/Feature.vue'
+// import ContentPanel from '~/components/ui/panel/Content.vue'
 
 export default {
   name: 'Footer',
@@ -109,7 +110,7 @@ export default {
 
   components: {
 
-    ContentPanel
+    Panel
 
   }
 }
