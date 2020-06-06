@@ -1,9 +1,9 @@
 <template>
   <div>
     <panel backgroundColor="bg-light-gray">
-      <h2 class="text-4xl text-center font-bold">Unpacking Women’s Empowerment: Implications for Research, Policy and Practice in International Development</h2>
+      <h2 class="text-3xl md:text-4xl text-center font-bold">Unpacking Women’s Empowerment: Implications for Research, Policy and Practice in International Development</h2>
 
-      <div class="w-4/5 mx-auto my-20">
+      <div class="w-full md:w-4/5 mx-auto my-20">
         <div class="relative aspect-16x9">
           <iframe class="absolute pin w-full h-full" src="https://www.youtube.com/embed/IweYfH_Nnxo?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
