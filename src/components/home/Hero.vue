@@ -13,15 +13,16 @@
         <p>This webinar will discuss current issues around COVID-19 and the care economy for women in the Global South. A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for women and the care economy.</p>
 
         <p class="mt-10">
+          <!--
         <a
           :href="webinar.registrationLink"
           rel="external"
           class="bg-dark-turquoise text-white px-5 py-3 font-semibold rounded hover:bg-darker-turquoise hover:no-underline">Register<span class="sr-only"> for {{ webinar.title }}</span></a>
-
+          -->
         <g-link
           to="/seminars/care-economy-global-south/"
           rel="external"
-          class="text-dark-turquoise px-5 py-3 font-semibold rounded hover:text-light-turquoise hover:underline">Learn more<span class="sr-only"> for {{ webinar.title }}</span></g-link>
+          class="bg-dark-turquoise text-white px-5 py-3 font-semibold rounded hover:bg-darker-turquoise hover:no-underline">Learn more<span class="sr-only"> for {{ webinar.title }}</span></g-link>
 
         </p>
       </div>
