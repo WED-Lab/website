@@ -5,16 +5,21 @@ event_passed: false
 ---
 
 <div class="flex flex-col justify-center w-full rounded-lg shadow-xs md:shadow-md bg-white my-8 p-4 border border-solid border-gray-200 bg-white">
+  <!--
   <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">Register for the seminar</h2>
+  -->
+  <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">This seminar has passed</h2>
   <ul>
     <li>Title: COVID-19 and the Care Economy in the Global South</li>
     <li>Date: Thursday, June 11, 2020</li>
     <li>Time: 10:00-11:30 AM (EDT)</li>
     <li>Duration: 1.5 Hours</li>
   </ul>
+  <!--
   <div class="flex flex-row-reverse">
     <a class="text-white bg-dark-turquoise rounded-lg p-2 font-bold hover:no-underline hover:bg-light-turquoise" href="https://us02web.zoom.us/webinar/register/WN_Dl1TK6E9RkaSimkHGFToTQ" rel="external">Join online</a>
   </div>
+  -->
 </div>
 
 ## Overview:
