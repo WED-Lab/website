@@ -1,7 +1,7 @@
 <template>
   <div class="bg-light-gray">
-    <div class="w-full lg:w-4/5 mx-auto container flex flex-col md:flex-row items-center py-16 md:py-32 px-5 md:px-5">
-      <div class="w-full md:w-2/3 order-2 md:order-1">
+    <div class="w-full lg:w-full mx-auto container flex flex-col lg:flex-row items-center py-16 md:py-32 px-5 md:px-5">
+      <div class="w-full lg:w-3/5 order-2 md:order-2">
         <p class="py-2 px-4 inline shadow-md no-underline rounded-lg bg-gray-700 text-white font-sans font-semibold text-sm border-blue btn-primary hover:text-white hover:bg-blue-light focus:outline-none active:shadow-none mr-2">Special COVID-19 Webinar Series</p>
 
         <h2 class="text-4xl font-bold text-gray-700">{{ webinar.title }}</h2>
@@ -26,12 +26,12 @@
 
         </p>
       </div>
-      <div class="w-full md:w-1/3 mb-10 md:mb-0 pl-0 md:pl-10 order-1 md:order-2">
+      <div class="w-full md:w-1/2 lg:w-2/5 mb-10 lg:mb-0 lg:ml-5 pl-0 order-1 lg:order-2">
         <g-image
           alt=""
-          src="~/assets/images/home/hero/managing-people.svg"
+          src="~/assets/images/home/hero/seminar.svg"
           quality="100"
-          class="sr-only w-full h-auto rounded-lg object-contain" />
+          class="w-full h-auto rounded-lg object-contain" />
       </div>
     </div>
 
