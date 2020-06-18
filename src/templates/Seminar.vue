@@ -25,6 +25,11 @@ query Seminar ($id: ID!) {
 import ContentPanel from '~/components/ui/panel/Content.vue'
 
 export default {
+  metaInfo() {
+    return {
+      title: this.$page.seminar.title
+    }
+  },
 
   components: {
     ContentPanel
