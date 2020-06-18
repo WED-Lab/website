@@ -10,17 +10,17 @@
 
         <!-- <p class="text-xl"><span class="sr-only">Time: </span>{{ webinar.time }}</p> -->
 
-        <p>This webinar will discuss current issues around COVID-19 and the care economy for women in the Global South. A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for women and the care economy.</p>
+        <p>{{ webinar.description }}</p>
 
         <p class="mt-10">
-          <!--
+
         <a
           :href="webinar.registrationLink"
           rel="external"
-          class="bg-dark-turquoise text-white px-5 py-3 font-semibold rounded hover:bg-darker-turquoise hover:no-underline">Register<span class="sr-only"> for {{ webinar.title }}</span></a>
-          -->
+          class="bg-dark-turquoise text-white px-5 py-3 font-semibold rounded hover:bg-darker-turquoise hover:no-underline mr-5">Register<span class="sr-only"> for {{ webinar.title }}</span></a>
+
         <g-link
-          to="/seminars/care-economy-global-south/"
+          to="/seminars/covid-19-household-fertility-reproductive-health/"
           rel="external"
           class="bg-dark-turquoise text-white px-5 py-3 font-semibold rounded hover:bg-darker-turquoise hover:no-underline">Learn more<span class="sr-only"> for {{ webinar.title }}</span></g-link>
 
@@ -66,10 +66,11 @@ export default {
   data: function () {
     return {
       webinar: {
-        title: 'COVID-19 and the Care Economy in the Global South',
-        date: 'Thursday, June 11, 2020',
-        time: '10:00-11:30 AM (EDT)',
-        registrationLink: 'https://us02web.zoom.us/webinar/register/WN_Dl1TK6E9RkaSimkHGFToTQ',
+        title: 'COVID-19: Household Structures, Fertility, and Sexual and Reproductive Health and Rights in the Global South',
+        date: 'Tuesday, June 23, 2020',
+        time: '10:30 AM – 12:00 PM (EDT)',
+        registrationLink: 'https://us02web.zoom.us/webinar/register/WN_d4qFLEyeQK26MQlFa6V05g',
+        description: 'This webinar will discuss current issues around COVID-19, household structures, fertility, and sexual and reproductive health and rights for women in the Global South. A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for women and the care economy.'
       }
     }
   },
