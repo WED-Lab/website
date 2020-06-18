@@ -5,12 +5,12 @@
 
       <div class="flex flex-col md:flex-row flex-wrap items-center -mx-4">
 
-        <div class="w-4/5 md:w-1/2 lg:w-1/3 px-10 py-10">
+        <div class="w-4/5 md:w-1/2 lg:w-1/3 px-5 py-5 md:px-10 md:py-10">
           <a
             href="https://www.idrc.ca/"
             target="_blank">
             <g-image
-              src="~/assets/images/home/partners/idrc.jpg"
+              src="~/assets/images/home/partners/idrc.png"
               alt="" />
             <span class="sr-only">IDRC - International Development Research Centre</span>
           </a>
