@@ -11,7 +11,7 @@
           v-for="status in statuses"
           v-bind:key="status.id">
           <section>
-            <h2 class="mb-0">{{ status.heading }}</h2>
+            <h2 class="mt-12 mb-0">{{ status.heading }}</h2>
 
             <project-card
               v-for="project in correctStatusFilter(status.id)"
