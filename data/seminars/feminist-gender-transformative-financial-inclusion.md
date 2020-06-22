@@ -2,6 +2,7 @@
 title: "Feminist and Gender-Transformative Financial Inclusion"
 date: 2019-05-23
 event_passed: true
+series: "training"
 ---
 
 <section>

@@ -2,6 +2,7 @@
 title: "Conditional Cash Transfers and Women’s Economic Empowerment"
 date: 2019-06-14
 event_passed: true
+series: "training"
 ---
 
 <section>

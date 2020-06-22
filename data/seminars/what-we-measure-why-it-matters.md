@@ -2,6 +2,7 @@
 title: "Women's Economic Empowerment: What We Measure And Why It Matters"
 date: 2019-03-31
 event_passed: true
+series: "training"
 ---
 
 <section>

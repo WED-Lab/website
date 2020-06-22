@@ -2,6 +2,7 @@
 title: "Social Norms and Women's Empowerment"
 date: 2019-09-24
 event_passed: true
+series: "training"
 ---
 
 <section>

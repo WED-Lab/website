@@ -2,6 +2,7 @@
 title: "Women’s Empowerment and Entrepreneurship in the Transition to Low-Carbon Economies"
 date: 2019-12-11
 event_passed: true
+series: "training"
 ---
 
 <section>

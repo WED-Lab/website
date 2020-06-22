@@ -2,6 +2,7 @@
 title: "Using Quantitative Methodologies to Study Women's Empowerment"
 date: 2019-10-24
 event_passed: true
+series: "training"
 ---
 
 <section>

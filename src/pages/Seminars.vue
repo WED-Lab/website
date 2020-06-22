@@ -9,36 +9,48 @@
 
         <p>Click on a topic to access a recording of the seminar, the facilitator’s PowerPoint slides, suggested readings and other related materials.</p>
 
-        <div v-if="numberOfEvents(false) > 0">
-          <h2>NEW! WED Lab - Special COVID-19 Webinar Series</h2>
+        <div v-for="topic in series" v-bind:key="topic.id">
 
-          <ul
-            class="list-none"
-            v-for="seminar in eventStatusFilter(false)"
-            v-bind:key="seminar.node.id">
-            <li>
-              <g-link
-                class=""
-                :to="seminar.node.path">{{ seminar.node.title }}</g-link>
-            </li>
-          </ul>
+          <!-- Topic -->
+          <h2 class="mt-16">{{ topic.title }}</h2>
 
-        </div>
+          <!-- Loop through the two different status (upcoming and past) -->
+          <div v-for="status in statuses" v-bind:key="status.id">
+
+            <div v-if="numberOfEvents(topic.id, status.id) > 0">
+
+              <h3 class="sr-only">{{ status.heading }}</h3>
+
+              <ul
+                class="list-none"
+                v-for="seminar in eventFilter(topic.id, status.id)"
+                v-bind:key="seminar.node.id">
+                <li class="flex flex-col w-full my-4 mb-10 p-8 bg-white rounded-lg hover:shadow-xl transition-all duration-300 ease-in">
+
+                  <h4 class="order-2 font-bold text-lg">{{ seminar.node.title }}</h4>
+
+                  <p class="order-1 mt-0 mb-2 py-0 text-xs text-gray-500">{{ dateFormat(seminar.node.date) }}</p>
+
+                  <div class="order-3 mt-5">
+
+                    <a href="#"
+                      class="btn btn-link mr-10"
+                      v-if="seminar.node.event_passed === false">
+                      Register</a>
 
 
-        <div v-if="numberOfEvents(true) > 0">
-          <h2>Past events</h2>
+                    <g-link
+                    class="order-4 btn btn-link"
+                    :to="seminar.node.path">Learn more</g-link>
 
-          <ul
-            class="list-none"
-            v-for="seminar in eventStatusFilter(true)"
-            v-bind:key="seminar.node.id">
-            <li>
-              <g-link
-                class=""
-                :to="seminar.node.path">{{ seminar.node.title }}</g-link>
-            </li>
-          </ul>
+                  </div>
+
+                </li>
+              </ul>
+
+            </div>
+
+          </div>
 
         </div>
 
@@ -56,6 +68,8 @@ query {
         title
         event_passed
         path
+        series
+        date
       }
     }
   }
@@ -73,14 +87,38 @@ export default {
 
   data: function () {
     return {
-      statuses: [
+      months: [
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December'
+      ],
+      series: [
         {
-          'id': 'open',
-          'heading': 'Open projects'
+          'id': 'covid',
+          'title': 'WED Lab - Special COVID-19 Webinar Series'
         },
         {
-          'id': 'closed',
-          'heading': 'Closed projects'
+          'id': 'training',
+          'title': 'Women’s empowerment in development research-to-practice training seminars'
+        },
+      ],
+      statuses: [
+        {
+          'id': 'upcoming',
+          'heading': 'Upcoming'
+        },
+        {
+          'id': 'past',
+          'heading': 'Past events'
         }
       ]
     }
@@ -88,21 +126,31 @@ export default {
 
   methods: {
 
-    numberOfEvents: function (status) {
-      var numberOfPassedEvents = 0
+    numberOfEvents: function (seriesId, statusId) {
+      var numberOfEvents = 0, statusFlag;
+
       this.$page.seminars.edges.forEach(element => {
-        if (element.node.event_passed === status)
+        if (element.node.series === seriesId && element.node.event_passed === (statusId === 'upcoming' ?  false : true))
         {
-          numberOfPassedEvents++
+          numberOfEvents++;
         }
       });
-      return numberOfPassedEvents
+
+      return numberOfEvents;
     },
 
-    eventStatusFilter: function (status) {
+    eventFilter: function (seriesId, statusId) {
       return this.$page.seminars.edges.filter( function (el) {
-        return el.node.event_passed === status
+        return (el.node.series === seriesId && el.node.event_passed === (statusId === 'upcoming' ?  false : true))
       })
+    },
+
+    dateFormat: function (dateString) {
+      var date = new Date(dateString);
+      // Adjust for the local system timezone
+      date.setTime( date.getTime() + new Date().getTimezoneOffset()*60*1000 );
+      console.log(dateString, ' ', date)
+      return (date.getDate() + ' ' + this.months[date.getMonth()] + ', ' + date.getFullYear() );
     }
   },
 

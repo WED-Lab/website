@@ -2,6 +2,7 @@
 title: "Using Qualitative Feminist Methodologies to Study Women's Empowerment and Gender Equality"
 date: 2019-09-09
 event_passed: true
+series: "training"
 ---
 
 <section>

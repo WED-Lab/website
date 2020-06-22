@@ -1,7 +1,7 @@
 ---
 title: "Gender Matters: COVID-19 and the labour market in the Global South"
 date: 2020-05-28
-event_passed: false
+event_passed: true
 series: "covid"
 teaser: "This webinar will discuss current issues around COVID-19 and the labour market for women in the Global South."
 ---
