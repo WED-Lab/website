@@ -5,7 +5,7 @@
 
         <h1>Publications</h1>
 
-        <p>Selected publication produced by <abbr>WED</abbr> Lab members are listed on this page. Publications include journal articles, books and book chapters, media coverage, and policy briefs.</p>
+        <p class="mb-16">Selected publication produced by <abbr>WED</abbr> Lab members are listed on this page. Publications include journal articles, books and book chapters, media coverage, and policy briefs.</p>
 
         <publication-card
           v-for="publication in $page.publications.edges[0].node.data"
