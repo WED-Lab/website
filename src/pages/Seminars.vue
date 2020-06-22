@@ -12,7 +12,7 @@
         <div v-for="topic in series" v-bind:key="topic.id">
 
           <!-- Topic -->
-          <h2 class="mt-16">{{ topic.title }}</h2>
+          <h2 class="mt-20">{{ topic.title }}</h2>
 
           <!-- Loop through the two different status (upcoming and past) -->
           <div v-for="status in statuses" v-bind:key="status.id">
@@ -31,7 +31,7 @@
 
                   <p class="order-1 mt-0 mb-2 py-0 text-xs text-gray-500">{{ dateFormat(seminar.node.date) }}</p>
 
-                  <div class="order-3 mt-5">
+                  <div class="order-3 mt-4">
 
                     <a href="#"
                       class="btn btn-link mr-10"
