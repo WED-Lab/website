@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col w-full my-4 mb-10 p-8 bg-white rounded-lg hover:shadow-xl transition-all duration-300 ease-in">
     <div class="order-2">
-      <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">{{ publication.title }}</h2>
+      <h2 class="text-gray-700 text-lg font-bold mt-1 mb-0">{{ publication.title }}</h2>
     </div>
     <div class="order-1 flex flex-row justify-between">
       <p class="text-sm text-gray-500 font-semibold mb-0"><span class="sr-only">Type: </span>{{ publication.type }}</p>
