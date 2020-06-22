@@ -14,7 +14,7 @@
           <section>
             <h2>{{ category.heading }}</h2>
 
-            <div class="flex flex-row flex-wrap -mx-2">
+            <div class="flex flex-row flex-wrap -mx-4">
               <people-card
                 v-for="person in correctCategoryFilter(category.id)"
                 v-bind:key="person.id"
