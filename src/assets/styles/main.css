@@ -1,5 +1,7 @@
 @tailwind base;
 
+/* Main default styles */
+
 html {
   @apply text-gray-700 antialiased tracking-wide;
 }
@@ -9,11 +11,11 @@ h1 {
 }
 
 h2 {
-  @apply mt-5 mb-5 text-3xl text-gray-700 font-medium;
+  @apply mt-6 mb-6 text-3xl text-gray-700 font-medium;
 }
 
 h3 {
-  @apply mt-2 mb-5 text-2xl text-gray-600 font-medium;
+  @apply mt-2 mb-5 text-2xl text-gray-700 font-semibold;
 }
 
 p {
@@ -24,11 +26,46 @@ a {
   @apply text-lg text-darker-turquoise;
 }
 
+ul li {
+  @apply text-lg;
+}
+
 a:hover {
   @apply underline;
 }
 
 @tailwind components;
+
+/* Component Styles */
+
+.btn {
+  @apply font-semibold rounded-lg px-6 py-4;
+}
+
+.btn-link {
+  @apply text-dark-turquoise px-0;
+}
+
+.btn-link:hover {
+  @apply text-darker-turquoise transition ease-linear duration-200;
+}
+
+.btn-dark-turquoise {
+  @apply bg-dark-turquoise text-white;
+}
+
+.btn-dark-turquoise:hover {
+  @apply bg-darker-turquoise no-underline transition ease-linear duration-200;
+}
+
+.btn-outline-dark-turquoise {
+  @apply border-2 border-dark-turquoise bg-white text-dark-turquoise;
+}
+
+.btn-outline-dark-turquoise:hover {
+  @apply bg-dark-turquoise text-white no-underline transition ease-linear duration-150;
+}
+
 
 @tailwind utilities;
 

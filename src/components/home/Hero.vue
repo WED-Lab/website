@@ -1,35 +1,37 @@
 <template>
-  <div class="bg-light-gray">
+  <div class="bg-white">
     <div class="w-full lg:w-full mx-auto container flex flex-col lg:flex-row items-center py-16 md:py-32 px-5 md:px-5">
-      <div class="w-full lg:w-3/5 order-2 md:order-2">
-        <p class="py-2 px-4 inline shadow-md no-underline rounded-lg bg-gray-700 text-white font-sans font-semibold text-sm border-blue btn-primary hover:text-white hover:bg-blue-light focus:outline-none active:shadow-none mr-2">Special COVID-19 Webinar Series</p>
+      <div class="w-full lg:w-1/2 order-2 md:order-2">
 
-        <h2 class="text-4xl font-bold text-gray-700">{{ webinar.title }}</h2>
+        <!--
+        <p class="py-2 px-4 inline shadow-md no-underline rounded-lg bg-gray-700 text-white font-sans font-semibold text-sm border-blue btn-primary">Special COVID-19 Webinar Series</p>
+        -->
+
+        <h2 class="text-3xl font-bold text-gray-700">{{ webinar.title }}</h2>
 
         <p class="text-2xl"><span class="sr-only">Date: </span>{{ webinar.date }} - <span class="text-xl">{{ webinar.time }}</span></p>
 
         <!-- <p class="text-xl"><span class="sr-only">Time: </span>{{ webinar.time }}</p> -->
 
-        <p>{{ webinar.description }}</p>
+        <p class="text-gray-600">{{ webinar.description }}</p>
 
-        <p class="mt-10">
+        <p class="mt-12">
 
         <a
           :href="webinar.registrationLink"
           rel="external"
-          class="bg-dark-turquoise text-white px-5 py-3 font-semibold rounded hover:bg-darker-turquoise hover:no-underline mr-5">Register<span class="sr-only"> for {{ webinar.title }}</span></a>
+          class="btn btn-dark-turquoise mr-5">Register<span class="sr-only"> for {{ webinar.title }}</span></a>
 
         <g-link
           to="/seminars/covid-19-household-fertility-reproductive-health/"
-          rel="external"
-          class="bg-dark-turquoise text-white px-5 py-3 font-semibold rounded hover:bg-darker-turquoise hover:no-underline">Learn more<span class="sr-only"> for {{ webinar.title }}</span></g-link>
+          class="btn btn-outline-dark-turquoise">Learn more<span class="sr-only"> about {{ webinar.title }}</span></g-link>
 
         </p>
       </div>
-      <div class="w-full md:w-1/2 lg:w-2/5 mb-10 lg:mb-0 lg:ml-5 pl-0 order-1 lg:order-2">
+      <div class="w-full md:w-1/2 lg:w-1/2 mb-10 lg:mb-0 pl-0 lg:pl-16 order-1 lg:order-2">
         <g-image
           alt=""
-          src="~/assets/images/home/hero/seminar.svg"
+          src="~/assets/images/home/hero/webinar.svg"
           quality="100"
           class="w-full h-auto rounded-lg object-contain" />
       </div>
@@ -83,12 +85,7 @@ export default {
 
 <style scoped>
 .hero-background {
-  background-image:
-    linear-gradient(
-      45deg,
-      rgba(121, 206, 216),
-      rgba(220, 56, 51)
-    );
+background-image: linear-gradient(180deg, #f4f7f8 40%, #ffffff 100%);
 }
 
 </style>

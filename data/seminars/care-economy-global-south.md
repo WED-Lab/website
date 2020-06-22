@@ -1,7 +1,9 @@
 ---
 title: "COVID-19 and the Care Economy in the Global South"
-date: 2020-07-11
+date: 2020-06-11
 event_passed: false
+series: "covid"
+teaser: "This webinar will discuss current issues around COVID-19 and the care economy for women in the Global South."
 ---
 
 <div class="flex flex-col justify-center w-full rounded-lg shadow-xs md:shadow-md bg-white my-8 p-4 border border-solid border-gray-200 bg-white">
