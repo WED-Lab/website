@@ -149,7 +149,6 @@ export default {
       var date = new Date(dateString);
       // Adjust for the local system timezone
       date.setTime( date.getTime() + new Date().getTimezoneOffset()*60*1000 );
-      console.log(dateString, ' ', date)
       return (date.getDate() + ' ' + this.months[date.getMonth()] + ', ' + date.getFullYear() );
     }
   },
