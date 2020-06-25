@@ -1,14 +1,14 @@
 ---
 title: "COVID-19: Household Structures, Fertility, and Sexual and Reproductive Health and Rights in the Global South"
 date: 2020-06-23
-event_passed: false
+event_passed: true
 series: "covid"
 teaser: "This webinar will discuss current issues around COVID-19, household structures, fertility, and sexual and reproductive health and rights for women in the Global South."
 ---
 
 <div class="flex flex-col justify-center w-full rounded-lg shadow-xs md:shadow-md bg-white my-8 p-4 border border-solid border-gray-200 bg-white">
 
-  <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">Register for the seminar</h2>
+  <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">This seminar has passed</h2>
   <ul>
     <li>Title: COVID-19: Household Structures, Fertility, and Sexual and Reproductive Health and Rights in the Global South</li>
     <li>Date: Tuesday, June 23, 2020</li>
@@ -16,9 +16,11 @@ teaser: "This webinar will discuss current issues around COVID-19, household str
     <li>Duration: 1.5 Hours</li>
   </ul>
   
+  <!--
   <div class="flex flex-row-reverse">
     <a class="text-white bg-dark-turquoise rounded-lg p-2 font-bold hover:no-underline hover:bg-light-turquoise" href="https://us02web.zoom.us/webinar/register/WN_d4qFLEyeQK26MQlFa6V05g" rel="external">Join online</a>
   </div>
+  -->
 
 </div>
 
