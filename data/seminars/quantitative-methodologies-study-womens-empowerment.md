@@ -5,58 +5,12 @@ event_passed: true
 series: "training"
 ---
 
-<section>
-	<div class="row mb-5">
-		<div class="col">
-			<div class="people-card-container">
-				<h2 class="sr-only">Webinar Video</h2>
-				<div class="embed-responsive embed-responsive-16by9 my-2">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rIYTyhwyfxA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!--
-<section>
-	<div class="row mb-5">
-		<div class="col">
-			<div class="people-card-container">
-				<div class="people-name">
-					<h2 class="mt-1">Register for the seminar/webinar:</h2>
-				</div>
-				<div class="people-author">
-					<dl class="row">
-						<dt class="col-sm-2">Title:</dt>
-						<dd class="col-sm-10">Using Quantitative Methodologies to Study Women's Empowerment </dd>
-
-						<dt class="col-sm-2">Location:</dt>
-						<dd class="col-sm-10">In Ottawa or remotely via Zoom</dd>
-
-
-						<dt class="col-sm-2">Date:</dt>
-						<dd class="col-sm-10">Thursday, October 24, 2019</dd>
-
-						<dt class="col-sm-2">Time:</dt>
-						<dd class="col-sm-10">1:00-3:00pm (<abbr>EST</abbr>)</dd>
-
-						<dt class="col-sm-2">Duration:</dt>
-						<dd class="col-sm-10">2 Hours</dd>
-					</dl>
-				</div>
-				<div class="people-title">
-				</div>
-				<div class="people-btn">
-					<a target="_blank" href="https://forms.gle/n96YJXRv44y8nZwH7	" class="btn btn-red btn-lg">Attend in person</a>
-					<a target="_blank" href="https://zoom.us/webinar/register/WN_cXVYcgSpQbKc-0OnXSjiQA" class="btn btn-red btn-lg ml-3">Join online</a>
-				</div>
-			</div>
-		</div>
-
-	</div>
-</section>
--->
+<div class="w-full mx-auto my-20">
+  <div class="relative aspect-16x9" style="padding-bottom: 56.25%;">
+    <h2 class="sr-only">Webinar Video</h2>
+    <iframe class="absolute pin w-full h-full" src="https://www.youtube.com/embed/rIYTyhwyfxA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
 
 <section>
 	<h2>Seminar description:</h2>
@@ -74,49 +28,12 @@ series: "training"
 	</ul>
 </section>
 
-<section>
-		<h2>Related materials:</h2>
-		<ul class="row list-unstyled">
-			<li class="col-md-6 my-3">
-				<div class="people-card-container">
-					<div class="people-name">
-						<h3 class="mt-1"><span class="sr-only">Material Name: </span>Using Quantitative Methodologies to Study Women’s Empowerment <br />(PDF Version)</h3>
-					</div>
-					<div class="people-type">
-						<span class="sr-only">Type: </span>Seminar Slides
-					</div>
-					<div class="people-img">
-						<img src="{{< relURL "/images/seminars/quantitative-methodologies-study-womens-empowerment/seminar-slides.png" >}}" alt="" class="img-fluid" />
-					</div>
-					<div class="people-title">
-						<span class="sr-only">Author: </span>Kate Grantham
-					</div>
-					<div class="people-btn">
-						<a href="{{< relURL "/resources/seminars/quantitative-methodologies-study-womens-empowerment/slides.pdf" >}}" class="btn btn-red">Download</a>
-					</div>
-				</div>
-			</li>
-			<li class="col-md-6 my-3">
-				<div class="people-card-container">
-					<div class="people-name">
-						<h3 class="mt-1"><span class="sr-only">Material Name: </span>Using Quantitative Methodologies to Study Women’s Empowerment <br />(PPT Version)</h3>
-					</div>
-					<div class="people-type">
-						<span class="sr-only">Type: </span>Seminar Slides
-					</div>
-					<div class="people-img">
-						<img src="{{< relURL "/images/seminars/quantitative-methodologies-study-womens-empowerment/seminar-slides.png" >}}" alt="" class="img-fluid" />
-					</div>
-					<div class="people-title">
-						<span class="sr-only">Author: </span>Kate Grantham
-					</div>
-					<div class="people-btn">
-						<a href="{{< relURL "/resources/seminars/quantitative-methodologies-study-womens-empowerment/slides.pptx" >}}" class="btn btn-red">Download</a>
-					</div>
-				</div>
-			</li>
-		</ul>
-</section>
+## Related materials
+
+* [Seminar Slides - Using Quantitative Methodologies to Study Women’s Empowerment (PDF Version)](https://wedlab-dev.netlify.app/resources/seminars/quantitative-methodologies-study-womens-empowerment/slides.pdf)
+
+* [Seminar Slides - Using Quantitative Methodologies to Study Women’s Empowerment (PPT Version)](https://wedlab-dev.netlify.app/resources/seminars/quantitative-methodologies-study-womens-empowerment/slides.pptx)
+
 
 <section>
 		<h2>Suggested readings on this topic:</h2>
@@ -131,17 +48,3 @@ series: "training"
 			<li class="my-4"><a target="_blank" href="https://oxfamblogs.org/fp2p/naila-kabeer-on-why-randomized-controlled-trials-need-to-include-human-agency/">Kabeer, N. 2019. “Naila Kabeer on Why Randomized Controlled Trials need to include Human Agency.” June 7. Oxfam Blogs.</a></li>
 		</ul>
 </section>
-
-<!--
-<section>
-
-	<h2>Suggested readings on this topic:</h2>
-
-	<ul class="list-unstyled">
-
-		<li class="my-4"><a rel="external" target="_blank" href=""></a></li>
-
-	</ul>
-
-</section>
--->

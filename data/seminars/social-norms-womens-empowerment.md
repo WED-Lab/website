@@ -5,6 +5,7 @@ event_passed: true
 series: "training"
 ---
 
+<!--
 <section>
 	<div class="row mb-5">
 		<div class="col">
@@ -15,6 +16,7 @@ series: "training"
 		</div>
 	</div>
 </section>
+-->
 
 <!--
 <section>
@@ -67,50 +69,12 @@ series: "training"
 	</ul>
 </section>
 
-<section>
-	<h2>Related materials:</h2>
-	<ul class="row list-unstyled">
-		<li class="col-md-6 my-3">
-			<div class="people-card-container">
-				<div class="people-name">
-					<h3 class="mt-1"><span class="sr-only">Material Name: </span>Social Norms and Women's Empowerment (PDF Version)</h3>
-				</div>
-				<div class="people-type">
-					<span class="sr-only">Type: </span>Seminar Slides
-				</div>
-				<div class="people-img">
-					<img src="{{< relURL "/images/seminars/social-norms-womens-empowerment/thumbnail.png" >}}" alt="" class="img-fluid" />
-				</div>
-				<div class="people-title">
-					<span class="sr-only">Author: </span>Kathleen Fallon
-				</div>
-				<div class="people-btn">
-					<a href="{{< relURL "/resources/seminars/social-norms-womens-empowerment/slides.pdf" >}}" class="btn btn-red">Download</a>
-				</div>
-			</div>
-		</li>
-		<li class="col-md-6 my-3">
-			<div class="people-card-container">
-				<div class="people-name">
-					<h3 class="mt-1"><span class="sr-only">Material Name:</span>Can Subsidized Early Child Care Promote Women’s Employment? Evidence from Kenya
-					</h3>
-				</div>
-				<div class="people-type">
-					<span class="sr-only">Type: </span>Policy Brief
-				</div>
-				<div class="people-img">
-					<img src="{{< relURL "/images/seminars/social-norms-womens-empowerment/gpb-1.png" >}}" alt="" class="img-fluid" />
-				</div>
-				<div class="people-title">
-					Shelley Clark, Caroline Kabiru, Sonia Laszlo and Stella Muthuri
-				</div>
-				<div class="people-btn">
-					<a href="http://grow.research.mcgill.ca/publications/policy-briefs/gpb-2017-01.pdf" class="btn btn-red">Download</a>
-				</div>
-			</div>
-		</li>
-	</ul>
-</section>
+## Related materials:
+
+* [Seminar Slides - Social Norms and Women's Empowerment (PDF Version)](https://wedlab-dev.netlify.app/resources/seminars/social-norms-womens-empowerment/slides.pdf)
+
+* [Policy Brief - Can Subsidized Early Child Care Promote Women’s Employment? Evidence from Kenya](http://grow.research.mcgill.ca/publications/policy-briefs/gpb-2017-01.pdf)
+
 
 <section>
 	<h2>Suggested readings on this topic:</h2>
