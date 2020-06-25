@@ -2,20 +2,15 @@
 title: "Women's Economic Empowerment: What We Measure And Why It Matters"
 date: 2019-03-31
 event_passed: true
+series: "training"
 ---
 
-<section>
-	<div class="row mb-5">
-		<div class="col">
-			<div class="people-card-container">
-				<h2 class="sr-only">Webinar Video</h2>
-				<div class="embed-responsive embed-responsive-16by9 my-2">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MRCQ9EuUrYQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<div class="w-full mx-auto my-20">
+  <div class="relative aspect-16x9" style="padding-bottom: 56.25%;">
+    <h2 class="sr-only">Webinar Video</h2>
+    <iframe class="absolute pin w-full h-full" src="https://www.youtube.com/embed/MRCQ9EuUrYQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
 
 <section>
 	<h2>Seminar description:</h2>
@@ -33,49 +28,12 @@ event_passed: true
 	</ul>
 </section>
 
-<section>
-	<h2>Related materials:</h2>
-	<ul class="row list-unstyled">
-		<li class="col-md-6 my-3">
-			<div class="people-card-container">
-				<div class="people-name">
-					<h3 class="mt-1"><span class="sr-only">Material Name: </span>Women's Economic Empowerment: What We Measure And Why It Matters (PDF Version)</h3>
-				</div>
-				<div class="people-type">
-					<span class="sr-only">Type: </span>Seminar Slides
-				</div>
-				<div class="people-img">
-					<img src="{{< relURL "/images/seminars/what-we-measure-why-it-matters/thumbnail.png" >}}" alt="" class="img-fluid" />
-				</div>
-				<div class="people-title">
-					<span class="sr-only">Author: </span>Sonia Laszlo
-				</div>
-				<div class="people-btn">
-					<a href="{{< relURL "/images/seminars/what-we-measure-why-it-matters/slides.pdf" >}}" class="btn btn-red">Download</a>
-				</div>
-			</div>
-		</li>
-		<li class="col-md-6 my-3">
-			<div class="people-card-container">
-				<div class="people-name">
-					<h3 class="mt-1"><span class="sr-only">Material Name:</span>The Challenges of Measuring Women's Economic Empowerment: Evidence from the GrOW Program <span class="sr-only"><abbr>PDF</abbr></span> Version)</h3>
-				</div>
-				<div class="people-type">
-					<span class="sr-only">Type: </span>Policy Brief
-				</div>
-				<div class="people-img">
-					<img src="{{< relURL "/images/seminars/what-we-measure-why-it-matters/gpb-5.jpg" >}}" alt="" class="img-fluid" />
-				</div>
-				<div class="people-title">
-					Sonia Laszlo and Kate Grantham
-				</div>
-				<div class="people-btn">
-					<a href="http://grow.research.mcgill.ca/publications/policy-briefs/gpb-2017-05.pdf" class="btn btn-red">Download</a>
-				</div>
-			</div>
-		</li>
-	</ul>
-</section>
+## Related materials:
+
+* [Seminar Slides - Women's Economic Empowerment: What We Measure And Why It Matters (PDF Version)](https://wedlab-dev.netlify.app/images/seminars/what-we-measure-why-it-matters/slides.pdf)
+
+* [Policy Brief - The Challenges of Measuring Women's Economic Empowerment: Evidence from the GrOW Program (PDF Version)](http://grow.research.mcgill.ca/publications/policy-briefs/gpb-2017-05.pdf)
+
 
 <section class="mt-5">
 	<h2>Suggested readings on this topic:</h2>

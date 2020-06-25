@@ -1,22 +1,21 @@
 <template>
-  <div class="w-full flex rounded-lg items-stretch shadow-xs md:shadow-md bg-white my-8 border border-solid border-gray-200 bg-white">
-    <div class="w-1/12 sm:w-3/12">
-      <g-image alt="" class=" rounded-lg rounded-r-none object-cover h-full" :src="project.cover_image" />
+  <div class="flex flex-col lg:flex-row w-full my-4 mb-10 p-8 bg-white rounded-lg hover:shadow-xl transition-all duration-300 ease-in">
+
+    <div class="w-full lg:w-3/4 order-2 lg:order-1">
+      <h2 class="text-gray-700 text-lg font-bold mt-1 mb-0">{{ project.title }}</h2>
+
+      <p class="text-gray-600 mt-5"><span class="sr-only">Author: </span>{{ project.author }}</p>
+
+      <g-link
+        :to="project.path"
+        class="font-bold">
+        Read more
+      </g-link>
     </div>
-    <div class="w-11/12 sm:w-9/12">
-      <div class="flex flex-col px-5 pb-5 pt-2">
-        <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">{{ project.title }}</h2>
-
-        <p class="text-sm text-gray-500 font-semibold mb-0"><span class="sr-only">Author: </span>{{ project.author }}</p>
-
-        <div class="flex flex-row-reverse">
-          <g-link
-            class="text-white bg-dark-turquoise rounded-lg p-2 font-bold hover:no-underline hover:bg-light-turquoise"
-            :to="project.path">Read more<span class="sr-only"> about {{ project.title }}</span></g-link>
-        </div>
-
-      </div>
+    <div class="w-full lg:w-1/4 order-1 lg:order-2">
+      <g-image alt="" class="mb-8 lg:mb-0 rounded-lg object-cover h-full" :src="project.cover_image" />
     </div>
+
   </div>
 </template>
 

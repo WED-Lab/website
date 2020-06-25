@@ -1,4 +1,52 @@
 <template>
+  <div class="bg-light-gray">
+    <div class="w-full mx-auto container py-16 md:py-32 px-5 md:px-5 flex flex-col lg:flex-row items-start border-t-2">
+
+      <div class="w-full lg:w-1/2 lg:pr-16">
+
+        <h2 class="text-3xl font-bold text-gray-700">Research Projects</h2>
+
+        <p class="mt-10 mb-16 text-xl text-gray-600">WED Lab members are engaged in projects related to women's empowerment in international development.</p>
+
+        <g-link
+          class="btn btn-dark-turquoise"
+          to="/projects/">View all projects</g-link>
+
+
+      </div>
+
+      <div class="w-full lg:w-1/2 mt-16 lg:mt-0">
+
+        <h3 class="sr-only">Three Featured Projects</h3>
+
+        <div class="flex flex-col">
+
+          <div v-for="edge in $static.projects.edges" :key="edge.node.id"
+            class="w-full my-4 flex hover:shadow-xl transition-all duration-300 ease-in">
+
+            <div class="w-full p-10 bg-white rounded-lg">
+
+              <h4 class="font-bold text-lg">{{ edge.node.title }}</h4>
+
+              <p class="text-gray-600 mt-5">{{ edge.node.author }}</p>
+
+              <g-link
+                :to="edge.node.path"
+                class="font-bold">
+                Learn more
+              </g-link>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+<!--
   <div>
     <panel width="w-full" paddingHorizontal="px-0 sm:px-10">
       <section>
@@ -39,6 +87,7 @@
       </section>
     </panel>
   </div>
+-->
 </template>
 
 <static-query>

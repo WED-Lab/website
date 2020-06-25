@@ -3,9 +3,9 @@
     <main>
       <hero />
       <seminars />
-      <about />
-      <latest-works />
       <research-projects />
+      <publications />
+      <about />
       <promotional-video />
       <partners />
     </main>
@@ -16,7 +16,7 @@
 import Hero from '~/components/home/Hero.vue'
 import About from '~/components/home/About.vue'
 import Seminars from '~/components/home/Seminars.vue'
-import LatestWorks from '~/components/home/LatestWorks.vue'
+import Publications from '~/components/home/Publications.vue'
 import ResearchProjects from '~/components/home/ResearchProjects.vue'
 import PromotionalVideo from '~/components/home/Video.vue'
 import Partners from '~/components/home/Partners.vue'
@@ -29,7 +29,7 @@ export default {
     Hero,
     About,
     Seminars,
-    LatestWorks,
+    Publications,
     ResearchProjects,
     PromotionalVideo,
     Partners

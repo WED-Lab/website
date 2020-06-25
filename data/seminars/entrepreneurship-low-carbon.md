@@ -2,60 +2,15 @@
 title: "Women’s Empowerment and Entrepreneurship in the Transition to Low-Carbon Economies"
 date: 2019-12-11
 event_passed: true
+series: "training"
 ---
 
-<section>
-	<div class="row mb-5">
-		<div class="col">
-			<div class="people-card-container">
-				<h2 class="sr-only">Webinar Video</h2>
-				<div class="embed-responsive embed-responsive-16by9 my-2">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TtOu4FcAnjU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<!--
-<section>
-	<div class="row mb-5">
-		<div class="col"> 
-			<div class="people-card-container">
-				<div class="people-name">
-					<h2 class="mt-1">Register for the seminar/webinar:</h2>
-				</div>
-				<div class="people-author">
-					<dl class="row">
-						<dt class="col-sm-2">Title:</dt>
-						<dd class="col-sm-10">Women’s Empowerment and Entrepreneurship in the Transition to Low-Carbon Economies</dd>
-
-						<dt class="col-sm-2">Location:</dt>
-						<dd class="col-sm-10">In Ottawa or remotely via Zoom</dd>
-
-
-						<dt class="col-sm-2">Date:</dt>
-						<dd class="col-sm-10">Wednesday, December 11, 2019</dd>
-
-						<dt class="col-sm-2">Time:</dt>
-						<dd class="col-sm-10">1:00-3:00pm (<abbr>EST</abbr>)</dd>
-
-						<dt class="col-sm-2">Duration:</dt>
-						<dd class="col-sm-10">2 Hours</dd>
-					</dl>
-				</div>
-				<div class="people-title">
-				</div>
-				<div class="people-btn">
-					<a target="_blank" href="https://forms.gle/miSYeFit19rTUMmBA" class="btn btn-red btn-lg">Attend in person</a>
-					<a target="_blank" href="https://zoom.us/webinar/register/WN_bwS4IwFsTMG2qGeZQEEJHA" class="btn btn-red btn-lg ml-3">Join online</a>
-				</div>
-			</div>
-		</div>
-
-	</div>
-</section>
--->
+<div class="w-full mx-auto my-20">
+  <div class="relative aspect-16x9" style="padding-bottom: 56.25%;">
+    <h2 class="sr-only">Webinar Video</h2>
+    <iframe class="absolute pin w-full h-full" src="https://www.youtube.com/embed/TtOu4FcAnjU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
 
 <section>
     <h2>Seminar description:</h2>
@@ -79,49 +34,12 @@ event_passed: true
   </ul>
 </section>
 
-<section>
-	<h2>Related materials:</h2>
-	<ul class="row list-unstyled">
-		<li class="col-md-6 my-3">
-			<div class="people-card-container">
-				<div class="people-name">
-					<h3 class="mt-1"><span class="sr-only">Material Name: </span>Women's Empowerment and Entrepreneurship in the Transition to Low-Carbon Economies (PDF Version)</h3>
-				</div>
-				<div class="people-type">
-					<span class="sr-only">Type: </span>Seminar Slides
-				</div>
-				<div class="people-img">
-					<img src="{{< relURL "/images/seminars/entrepreneurship-low-carbon/thumbnail.png" >}}" alt="" class="img-fluid" />
-				</div>
-				<div class="people-title">
-					<span class="sr-only">Author: </span>Bipasha Baruah 
-				</div>
-				<div class="people-btn">
-					<a href="{{< relURL "/resources/seminars/entrepreneurship-low-carbon/slides.pdf" >}}" class="btn btn-red">Download</a>
-				</div>
-			</div>
-		</li>
-		<li class="col-md-6 my-3">
-			<div class="people-card-container">
-				<div class="people-name">
-					<h3 class="mt-1"><span class="sr-only">Material Name:</span>Opportunities and Constraints for Women’s Employment and Entrepreneurship in Renewable Energy <span class="sr-only"><abbr>PDF</abbr> Version)</span></h3>
-				</div>
-				<div class="people-type">
-					<span class="sr-only">Type: </span>Policy Brief
-				</div>
-				<div class="people-img">
-					<img src="{{< relURL "/images/seminars/entrepreneurship-low-carbon/gpb-3.jpg" >}}" alt="" class="img-fluid" />
-				</div>
-				<div class="people-title">
-					Bipasha Baruah
-				</div>
-				<div class="people-btn">
-					<a href="http://grow.research.mcgill.ca/publications/policy-briefs/gpb-2017-03.pdf" class="btn btn-red">Download</a>
-				</div>
-			</div>
-		</li>
-	</ul>
-</section>
+## Related materials
+
+* [Seminar Slides - Women's Empowerment and Entrepreneurship in the Transition to Low-Carbon Economies (PDF Version)](https://wedlab-dev.netlify.app/resources/seminars/entrepreneurship-low-carbon/slides.pdf)
+
+* [Policy Brief - pportunities and Constraints for Women’s Employment and Entrepreneurship in Renewable Energy (<abbr>PDF</abbr> Version)](http://grow.research.mcgill.ca/publications/policy-briefs/gpb-2017-03.pdf)
+
 
 <section>
   <h2>Suggested readings on this topic:</h2>
@@ -131,6 +49,6 @@ event_passed: true
       <li class="my-4"><a target="_blank" href="https://idl-bnc-idrc.dspacedirect.org/bitstream/handle/10625/56530/IDL-56530.pdf?sequence=2&isAllowed=y">Buss, D., Rutherford, B., Hinton, J., Stewart, J., Lebert, J., Eva Côté G., Sebina-Zziwa, A., Kibombo, R., and F. Kisekka. 2017. “Empowering women in artisanal and small-scale mining in Central and East Africa.” GrOW Policy Brief. IDRC, Ottawa.   </a></li>
       <li class="my-4"><a target="_blank" href="https://grow.research.mcgill.ca/publications/working-papers/gwp-2017-02.pdf">Buss, D., Rutherford, B., Hinton, J., Stewart, J., Lebert, J., Eva Côté G., Sebina-Zziwa, A., Kibombo, R., and F. Kisekka. 2017. “Gender and Artisanal and Small-Scale Mining in Central and East Africa: Barriers and Benefits.” GrOW Working Paper No. 2. McGill University, Montreal.</a></li>
       <li class="my-4"><a target="_blank" href="https://impacttransform.org/wp-content/uploads/2019/10/AFECCOR-brochure_Sept-2019-EN_Web-2.pdf">IMPACT. 2019. “AFECCOR: Supporting Artisanal Gold Mining Communities to Access Savings and Credit.” IMPACT, Ottawa.</a></li>
-      <li class="my-4"><a target="_blank" href="{{< relURL "/resources/seminars/entrepreneurship-low-carbon/article.pdf" >}}">Jodoin, L. 2019. “Toward More Energy Justice: The Case of Guinea (draft).”</a></li>
+      <li class="my-4"><a target="_blank" href="https://wedlab-dev.netlify.app/resources/seminars/entrepreneurship-low-carbon/article.pdf">Jodoin, L. 2019. “Toward More Energy Justice: The Case of Guinea (draft).”</a></li>
   </ul>
 </section>

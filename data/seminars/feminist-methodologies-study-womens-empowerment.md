@@ -2,20 +2,15 @@
 title: "Using Qualitative Feminist Methodologies to Study Women's Empowerment and Gender Equality"
 date: 2019-09-09
 event_passed: true
+series: "training"
 ---
 
-<section>
-	<div class="row mb-5">
-		<div class="col">
-			<div class="people-card-container">
-				<h2 class="sr-only">Webinar Video</h2>
-				<div class="embed-responsive embed-responsive-16by9 my-2">
-					<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/k6oGnR_pUwE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<div class="w-full mx-auto my-20">
+  <div class="relative aspect-16x9" style="padding-bottom: 56.25%;">
+    <h2 class="sr-only">Webinar Video</h2>
+    <iframe class="absolute pin w-full h-full" src="https://www.youtube.com/embed/k6oGnR_pUwE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
 
 <section>
 	<h2>Seminar description:</h2>
@@ -35,49 +30,12 @@ event_passed: true
 	</ul>
 </section>
 
-<section>
-	<h2>Related materials:</h2>
-	<ul class="row list-unstyled">
-		<li class="col-md-6 my-3">
-			<div class="people-card-container">
-				<div class="people-name">
-					<h3 class="mt-1"><span class="sr-only">Material Name: </span>Using Qualitative Feminist Methodologies to Study Women's Empowerment and Gender Equality (PDF Version)</h3>
-				</div>
-				<div class="people-type">
-					<span class="sr-only">Type: </span>Seminar Slides
-				</div>
-				<div class="people-img">
-					<img src="{{< relURL "/images/seminars/feminist-methodologies-study-womens-empowerment/thumbnail.png" >}}" alt="" class="img-fluid" />
-				</div>
-				<div class="people-title">
-					<span class="sr-only">Author: </span>Rebecca Tiessen
-				</div>
-				<div class="people-btn">
-					<a href="{{< relURL "/resources/seminars/feminist-methodologies-study-womens-empowerment/slides.pdf" >}}" class="btn btn-red">Download</a>
-				</div>
-			</div>
-		</li>
-		<li class="col-md-6 my-3">
-			<div class="people-card-container">
-				<div class="people-name">
-					<h3 class="mt-1"><span class="sr-only">Material Name:</span>Picturing Change Through PhotoVoice: Participatory Evaluation of a Daycare Intervention in Kenya</h3>
-				</div>
-				<div class="people-type">
-					<span class="sr-only">Type: </span>Policy Brief
-				</div>
-				<div class="people-img">
-					<img src="{{< relURL "/images/seminars/feminist-methodologies-study-womens-empowerment/gpb-6.jpg" >}}" alt="" class="img-fluid" />
-				</div>
-				<div class="people-title">
-					Milka Nyariro, Stella Muthuri, S.M. Hani Sadati, Claudia Mitchell and Milka Njeri
-				</div>
-				<div class="people-btn">
-					<a href="http://grow.research.mcgill.ca/publications/policy-briefs/gpb-2018-06.pdf" class="btn btn-red">Download</a>
-				</div>
-			</div>
-		</li>
-	</ul>
-</section>
+## Related materials:
+
+* [Seminar Slides - Using Qualitative Feminist Methodologies to Study Women's Empowerment and Gender Equality (PDF Version)](https://wedlab-dev.netlify.app/resources/seminars/feminist-methodologies-study-womens-empowerment/slides.pdf)
+
+* [Policy Brief - Picturing Change Through PhotoVoice: Participatory Evaluation of a Daycare Intervention in Kenya](http://grow.research.mcgill.ca/publications/policy-briefs/gpb-2018-06.pdf)
+
 
 <section class="mt-5">
   <h2>Suggested readings on this topic:</h2>
