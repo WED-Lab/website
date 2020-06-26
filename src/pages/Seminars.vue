@@ -33,7 +33,7 @@
 
                   <div class="order-3 mt-4">
 
-                    <a href="#"
+                    <a :href="seminar.node.registration_link"
                       class="btn btn-link mr-10"
                       v-if="seminar.node.event_passed === false">
                       Register</a>
@@ -70,6 +70,7 @@ query {
         path
         series
         date
+        registration_link
       }
     }
   }
