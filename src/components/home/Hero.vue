@@ -17,15 +17,15 @@
 
         <p class="mt-12">
 
-        <!--
+
         <a
           :href="webinar.registrationLink"
           rel="external"
           class="btn btn-dark-turquoise mr-5">Register<span class="sr-only"> for {{ webinar.title }}</span></a>
-        -->
+
 
         <g-link
-          to="/seminars/covid-19-household-fertility-reproductive-health/"
+          to="/seminars/covid-19-gender-based-violence/"
           class="btn btn-outline-dark-turquoise">Learn more<span class="sr-only"> about {{ webinar.title }}</span></g-link>
 
         </p>
@@ -70,11 +70,11 @@ export default {
   data: function () {
     return {
       webinar: {
-        title: 'COVID-19: Household Structures, Fertility, and Sexual and Reproductive Health and Rights in the Global South',
-        date: 'Tuesday, June 23, 2020',
-        time: '10:30 AM – 12:00 PM (EDT)',
-        registrationLink: 'https://us02web.zoom.us/webinar/register/WN_d4qFLEyeQK26MQlFa6V05g',
-        description: 'This webinar will discuss current issues around COVID-19, household structures, fertility, and sexual and reproductive health and rights for women in the Global South. A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for women and the care economy.'
+        title: 'COVID-19 and Gender Based Violence in the Global South',
+        date: 'Thursday, July 02, 2020',
+        time: '10:00 AM – 11:30 AM (EDT)',
+        registrationLink: 'https://us02web.zoom.us/webinar/register/WN_leyt1ycnTm-69DPkBSS4fw',
+        description: 'A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for addressing gender-based violence.'
       }
     }
   },
@@ -86,8 +86,9 @@ export default {
 </script>
 
 <style scoped>
+
 .hero-background {
-background-image: linear-gradient(180deg, #f4f7f8 40%, #ffffff 100%);
+  background-image: linear-gradient(180deg, #f4f7f8 40%, #ffffff 100%);
 }
 
 </style>
