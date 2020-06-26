@@ -6,7 +6,7 @@ series: "covid"
 teaser: "This webinar will discuss current issues around COVID-19, household structures, fertility, and sexual and reproductive health and rights for women in the Global South."
 ---
 
-<div class="flex flex-col justify-center w-full rounded-lg shadow-xs md:shadow-md bg-white my-8 p-4 border border-solid border-gray-200 bg-white">
+<div class="flex flex-col justify-center w-full rounded-lg shadow-xs md:shadow-md my-8 p-4 border border-solid border-gray-200 bg-white">
 
   <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">This seminar has passed</h2>
   <ul>
