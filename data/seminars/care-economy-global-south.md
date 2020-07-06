@@ -7,11 +7,17 @@ teaser: "This webinar will discuss current issues around COVID-19 and the care e
 ---
 
 <div class="flex flex-col justify-center w-full rounded-lg shadow-xs md:shadow-md my-8 p-4 border border-solid border-gray-200 bg-white">
+
+  <div class="w-full mx-auto">
+    <div class="relative aspect-16x9" style="padding-bottom: 56.25%;">
+      <h2 class="sr-only">Webinar Video</h2>
+      <iframe class="absolute pin w-full h-full" src="https://www.youtube.com/embed/3sbO4Ylx8-4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
   <!--
   <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">Register for the seminar</h2>
   -->
-  <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">This seminar has passed</h2>
-  <ul>
+  <ul class="mt-10">
     <li>Title: COVID-19 and the Care Economy in the Global South</li>
     <li>Date: Thursday, June 11, 2020</li>
     <li>Time: 10:00-11:30 AM (EDT)</li>
