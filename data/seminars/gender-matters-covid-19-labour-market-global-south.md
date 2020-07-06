@@ -7,11 +7,16 @@ teaser: "This webinar will discuss current issues around COVID-19 and the labour
 ---
 
 <div class="flex flex-col justify-center w-full rounded-lg shadow-xs md:shadow-md my-8 p-4 border border-solid border-gray-200 bg-white">
+  <div class="w-full mx-auto">
+    <div class="relative aspect-16x9" style="padding-bottom: 56.25%;">
+      <h2 class="sr-only">Webinar Video</h2>
+      <iframe class="absolute pin w-full h-full" src="https://www.youtube.com/embed/60w6RLxDyT8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
   <!--
   <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">Register for the seminar</h2>
   -->
-  <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">This seminar has passed</h2>
-  <ul>
+  <ul class="mt-10">
     <li>Title: Gender Matters: COVID-19 and the labour market in the Global South</li>
     <li>Date: Thursday, May 28, 2020</li>
     <li>Time: 10:00-11:30 AM (EDT)</li>
@@ -44,3 +49,7 @@ Given the current challenges, it is important to focus attention on the gender d
 * Dr. Mary Njeri Kinyanjui (University of Nairobi)
 * Dr. Laura Alfers (WIEGO)
 * Dr. Lorena Alcazar (GRADE)
+
+## Related Materials
+
+[Seminar Slides - Gender Matters: COVID-19 and the labour market in the Global South (PDF Version)](/resources/seminars/gender-matters-covid-19-labour-market-global-south-summary.pdf)
