@@ -17,12 +17,12 @@
 
         <p class="mt-12">
 
-        <!--
+
         <a
           :href="webinar.registrationLink"
           rel="external"
           class="btn btn-dark-turquoise mr-5">Register<span class="sr-only"> for {{ webinar.title }}</span></a>
-        -->
+
 
         <g-link
           to="/seminars/covid-19-gender-based-violence/"
@@ -70,11 +70,11 @@ export default {
   data: function () {
     return {
       webinar: {
-        title: 'COVID-19 and Gender Based Violence in the Global South',
-        date: 'Thursday, July 02, 2020',
-        time: '10:00 AM – 11:30 AM (EDT)',
-        registrationLink: 'https://us02web.zoom.us/webinar/register/WN_leyt1ycnTm-69DPkBSS4fw',
-        description: 'A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for addressing gender-based violence.'
+        title: 'Effects of COVID-19 on Girls\' Education in the Global South',
+        date: 'Tuesday, July 14, 2020',
+        time: '12:00 PM – 1:30 PM (EDT)',
+        registrationLink: 'https://us02web.zoom.us/webinar/register/WN_kH3N2cuRSNWUeC6QrmrHjA',
+        description: 'A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for addressing girls\' education.'
       }
     }
   },
