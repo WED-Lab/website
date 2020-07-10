@@ -52,4 +52,4 @@ Given the current challenges, it is important to focus attention on the gender d
 
 ## Related Materials
 
-[Webinar Slides - Gender Matters: COVID-19 and the labour market in the Global South (PDF Version)](/resources/seminars/gender-matters-covid-19-labour-market-global-south-summary.pdf)
+[Webinar summaries - Gender Matters: COVID-19 and the labour market in the Global South (PDF Version)](/resources/seminars/gender-matters-covid-19-labour-market-global-south-summary.pdf)
