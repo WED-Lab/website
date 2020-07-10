@@ -51,4 +51,4 @@ As with other pandemics in recent history, women are particularly vulnerable. CO
 
 ## Related Materials
 
-[Seminar Slides - COVID-19 and the Care Economy in the Global South (PDF Version)](/resources/seminars/care-economy-global-south-summary.pdf)
+[Webinar Slides - COVID-19 and the Care Economy in the Global South (PDF Version)](/resources/seminars/care-economy-global-south-summary.pdf)
