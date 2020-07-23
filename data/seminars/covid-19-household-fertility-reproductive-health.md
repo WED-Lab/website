@@ -8,7 +8,17 @@ teaser: "This webinar will discuss current issues around COVID-19, household str
 
 <div class="flex flex-col justify-center w-full rounded-lg shadow-xs md:shadow-md my-8 p-4 border border-solid border-gray-200 bg-white">
 
+  <!--
   <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">This seminar has passed</h2>
+  -->
+
+  <div class="w-full mx-auto mb-5">
+    <div class="relative aspect-16x9" style="padding-bottom: 56.25%;">
+      <h2 class="sr-only">Webinar Video</h2>
+      <iframe class="absolute pin w-full h-full" src="https://www.youtube.com/embed/1YCvS1yY1TM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+
   <ul>
     <li>Title: COVID-19: Household Structures, Fertility, and Sexual and Reproductive Health and Rights in the Global South</li>
     <li>Date: Tuesday, June 23, 2020</li>
@@ -23,6 +33,10 @@ teaser: "This webinar will discuss current issues around COVID-19, household str
   -->
 
 </div>
+
+## Related Materials:
+
+[Webinar summaries - COVID-19: Household Structures, Fertility, and Sexual and Reproductive Health and Rights in the Global South (PDF Version)](/resources/seminars/covid-19-household-fertility-reproductive-health.pdf)
 
 ## Overview:
 
