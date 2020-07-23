@@ -11,9 +11,16 @@ registration_link: https://us02web.zoom.us/webinar/register/WN_leyt1ycnTm-69DPkB
   
   <!--
   <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">Register for the seminar</h2>
-  -->
   <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">This seminar has passed</h2>
+  -->
   
+  <div class="w-full mx-auto mb-5">
+    <div class="relative aspect-16x9" style="padding-bottom: 56.25%;">
+      <h2 class="sr-only">Webinar Video</h2>
+      <iframe class="absolute pin w-full h-full" src="https://www.youtube.com/embed/KiAO0IuFWLw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+
   <ul>
     <li>Title: COVID-19 and Gender Based Violence in the Global South</li>
     <li>Date: Thursday, July 02, 2020</li>
@@ -27,6 +34,10 @@ registration_link: https://us02web.zoom.us/webinar/register/WN_leyt1ycnTm-69DPkB
   </div>
   -->
 </div>
+
+## Related Materials
+
+[Webinar summaries - COVID-19 and Gender Based Violence in the Global South (PDF Version)](/resources/seminars/covid-19-gender-based-violence.md.pdf)
 
 ## Overview:
 
