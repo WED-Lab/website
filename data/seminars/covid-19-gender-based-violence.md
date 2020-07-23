@@ -37,7 +37,7 @@ registration_link: https://us02web.zoom.us/webinar/register/WN_leyt1ycnTm-69DPkB
 
 ## Related Materials
 
-[Webinar summaries - COVID-19 and Gender Based Violence in the Global South (PDF Version)](/resources/seminars/covid-19-gender-based-violence.md.pdf)
+[Webinar summaries - COVID-19 and Gender Based Violence in the Global South (PDF Version)](/resources/seminars/covid-19-gender-based-violence.pdf)
 
 ## Overview:
 
