@@ -1,7 +1,7 @@
 ---
 title: "Effects of COVID-19 on Girls' Education in the Global South"
 date: 2020-07-14
-event_passed: false
+event_passed: true
 series: "covid"
 teaser: "A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for addressing girls' education."
 registration_link: https://us02web.zoom.us/webinar/register/WN_kH3N2cuRSNWUeC6QrmrHjA
