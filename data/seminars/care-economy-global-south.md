@@ -30,6 +30,10 @@ teaser: "This webinar will discuss current issues around COVID-19 and the care e
   -->
 </div>
 
+## Related Materials:
+
+[Webinar summaries - COVID-19 and the Care Economy in the Global South (PDF Version)](/resources/seminars/care-economy-global-south-summary.pdf)
+
 ## Overview:
 
 COVID-19 has become an unprecedented global crisis. The pandemic has exposed deep structural inequalities around the world, with disproportionate effects on women and girls. This webinar will discuss current issues around COVID-19 and the care economy for women in the Global South. A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for women and the care economy.
@@ -48,7 +52,3 @@ As with other pandemics in recent history, women are particularly vulnerable. CO
 * Jessica Hum - Antonopoulos (OXFAM)
 * Sabrina Habib
 * Margaret Kakande (Ministry of Finance, Uganda)
-
-## Related Materials
-
-[Webinar summaries - COVID-19 and the Care Economy in the Global South (PDF Version)](/resources/seminars/care-economy-global-south-summary.pdf)
