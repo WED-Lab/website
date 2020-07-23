@@ -29,6 +29,11 @@ teaser: "This webinar will discuss current issues around COVID-19 and the labour
   -->
 </div>
 
+## Related Materials:
+
+[Webinar summaries - Gender Matters: COVID-19 and the labour market in the Global South (PDF Version)](/resources/seminars/gender-matters-covid-19-labour-market-global-south-summary.pdf)
+
+
 ## Overview:
 
 COVID-19 has become an unprecedented global crisis. The pandemic and its associated economic crisis have exposed deep structural inequalities around the world, with disproportionate effects on women and girls. This webinar will discuss current issues around COVID-19 and the labour market for women in the Global South. A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for women in the labour market.
@@ -49,7 +54,3 @@ Given the current challenges, it is important to focus attention on the gender d
 * Dr. Mary Njeri Kinyanjui (University of Nairobi)
 * Dr. Laura Alfers (WIEGO)
 * Dr. Lorena Alcazar (GRADE)
-
-## Related Materials
-
-[Webinar summaries - Gender Matters: COVID-19 and the labour market in the Global South (PDF Version)](/resources/seminars/gender-matters-covid-19-labour-market-global-south-summary.pdf)
