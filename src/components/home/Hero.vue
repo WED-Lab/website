@@ -25,7 +25,7 @@
 
 
         <g-link
-          to="/seminars/covid-19-gender-based-violence/"
+          to="/seminars/covid-19-gender-lens-social-protection-programs"
           class="btn btn-outline-dark-turquoise">Learn more<span class="sr-only"> about {{ webinar.title }}</span></g-link>
 
         </p>
@@ -70,11 +70,11 @@ export default {
   data: function () {
     return {
       webinar: {
-        title: 'Effects of COVID-19 on Girls\' Education in the Global South',
-        date: 'Tuesday, July 14, 2020',
-        time: '12:00 PM – 1:30 PM (EDT)',
-        registrationLink: 'https://us02web.zoom.us/webinar/register/WN_kH3N2cuRSNWUeC6QrmrHjA',
-        description: 'A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for addressing girls\' education.'
+        title: 'How can we adopt a gender lens to social protection programs in the face of the COVID-19 crisis?',
+        date: 'Thursday, July 23, 2020',
+        time: '110:00 AM – 11:30 AM (EDT)',
+        registrationLink: 'https://us02web.zoom.us/webinar/register/WN_0VSakvsFS0q-KFsf2laBIQ',
+        description: 'A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for supporting social protection programs targeted at women.'
       }
     }
   },
