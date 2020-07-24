@@ -1,7 +1,7 @@
 ---
 title: "How can we adopt a gender lens to social protection programs in the face of the COVID-19 crisis?"
 date: 2020-07-23
-event_passed: false
+event_passed: true
 series: "covid"
 teaser: "A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for supporting social protection programs targeted at women."
 registration_link: https://us02web.zoom.us/webinar/register/WN_0VSakvsFS0q-KFsf2laBIQ
