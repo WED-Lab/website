@@ -17,15 +17,13 @@
 
         <p class="mt-12">
 
-        <!--
         <a
           :href="webinar.registrationLink"
           rel="external"
           class="btn btn-dark-turquoise mr-5">Register<span class="sr-only"> for {{ webinar.title }}</span></a>
-        -->
 
         <g-link
-          to="/seminars/covid-19-gender-lens-social-protection-programs"
+          :to="webinar.path"
           class="btn btn-outline-dark-turquoise">Learn more<span class="sr-only"> about {{ webinar.title }}</span></g-link>
 
         </p>
@@ -70,11 +68,12 @@ export default {
   data: function () {
     return {
       webinar: {
-        title: 'How can we adopt a gender lens to social protection programs in the face of the COVID-19 crisis?',
-        date: 'Thursday, July 23, 2020',
-        time: '110:00 AM – 11:30 AM (EDT)',
-        registrationLink: 'https://us02web.zoom.us/webinar/register/WN_0VSakvsFS0q-KFsf2laBIQ',
-        description: 'A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for supporting social protection programs targeted at women.'
+        path: '/seminars/covid-19-gender-lens-refugee-settings/',
+        title: 'Using a gender lens to address COVID19 response in Refugee Settings',
+        date: 'Tuesday, August 04, 2020',
+        time: '10:00 AM – 11:30 AM (EDT)',
+        registrationLink: 'https://us02web.zoom.us/webinar/register/WN_I5jjfZmGTjKdqgyG5z1yeg',
+        description: 'A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for refugees.'
       }
     }
   },
