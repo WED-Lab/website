@@ -68,12 +68,12 @@ export default {
   data: function () {
     return {
       webinar: {
-        path: '/seminars/covid-19-gender-lens-refugee-settings/',
-        title: 'Using a gender lens to address COVID19 response in Refugee Settings',
-        date: 'Tuesday, August 04, 2020',
+        path: '/seminars/covid-19-policy-solutions-women-global-south/',
+        title: 'Examining policy solutions to address the impact of COVID-19 on women in the Global South',
+        date: 'Tuesday, August 18, 2020',
         time: '10:00 AM – 11:30 AM (EDT)',
-        registrationLink: 'https://us02web.zoom.us/webinar/register/WN_I5jjfZmGTjKdqgyG5z1yeg',
-        description: 'A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for refugees.'
+        registrationLink: 'https://us02web.zoom.us/webinar/register/WN_9BLFTEsAT0egxnBU0oUL9Q',
+        description: 'A diverse panel of key policy experts from the worlds of international development will discuss various policy issues such as how governments should be addressing the various COVID-19 and gender issues, how governments should be funding COVID-19 response to meet the needs of the most vulnerable, and what are short term policy solutions (3-6 months) and long term policy solutions (3-5 years).'
       }
     }
   },
