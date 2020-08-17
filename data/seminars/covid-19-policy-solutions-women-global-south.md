@@ -22,8 +22,8 @@ registration_link: https://us02web.zoom.us/webinar/register/WN_9BLFTEsAT0egxnBU0
   -->
   
   <ul>
-    <li>Title: COVID-19 and Gender Based Violence in the Global South</li>
-    <li>Date: Thursday, July 02, 2020</li>
+    <li>Title: Examining policy solutions to address the impact of COVID19 on women in the Global South</li>
+    <li>Date: Tuesday, August 18, 2020 </li>
     <li>Time: 10:00-11:30 AM (EDT)</li>
     <li>Duration: 1.5 Hours</li>
   </ul>
