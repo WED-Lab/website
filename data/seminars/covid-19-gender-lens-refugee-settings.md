@@ -1,7 +1,7 @@
 ---
 title: "Using a gender lens to address COVID19 response in Refugee Settings"
 date: 2020-08-04
-event_passed: false
+event_passed: true
 series: "covid"
 teaser: "A diverse panel of experts from the worlds of international development research and practice will discuss research priorities and possible policy solutions for refugees."
 registration_link: https://us02web.zoom.us/webinar/register/WN_I5jjfZmGTjKdqgyG5z1yeg
