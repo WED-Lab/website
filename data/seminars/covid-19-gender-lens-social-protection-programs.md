@@ -12,10 +12,15 @@ registration_link: https://us02web.zoom.us/webinar/register/WN_0VSakvsFS0q-KFsf2
   
   <!--
   <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">Register for the seminar</h2>
-  -->
-
   <h2 class="text-gray-800 text-lg font-bold mt-1 mb-0">This seminar has passed</h2>
-  
+  -->
+  <div class="w-full mx-auto mb-5">
+    <div class="relative aspect-16x9" style="padding-bottom: 56.25%;">
+      <h2 class="sr-only">Webinar Video</h2>
+      <iframe class="absolute pin w-full h-full" src="https://www.youtube.com/embed/s0_c9F-iNEM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+  </div>
+
   <ul>
     <li>Title: How can we adopt a gender lens to social protection programs in the face of the COVID-19 crisis?</li>
     <li>Date: Tuesday, July 23, 2020</li>
@@ -29,6 +34,10 @@ registration_link: https://us02web.zoom.us/webinar/register/WN_0VSakvsFS0q-KFsf2
   </div>
   -->
 </div>
+
+## Related Materials
+
+[Webinar summaries - How can we adopt a gender lens to social protection programs in the face of the COVID-19 crisis? (PDF Version)](/resources/seminars/covid-19-gender-lens-social-protection-programs.pdf)
 
 ## Overview:
 
