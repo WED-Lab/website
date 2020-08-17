@@ -1,9 +1,9 @@
 ---
-title: "Examining policy solutions to address the impact of COVID19 on women in the Global South"
+title: "Examining policy solutions to address the impact of COVID-19 on women in the Global South"
 date: 2020-08-18
 event_passed: false
 series: "covid"
-teaser: "A diverse panel of key policy experts from the worlds of international development will discuss various policy issues such as how governments should be addressing the various COVID-19 and gender issues, how governments should be funding COVID19 response to meet the needs of the most vulnerable, and what are short term policy solutions (3-6 months) and long term policy solutions (3-5 years)."
+teaser: "A diverse panel of key policy experts from the worlds of international development will discuss various policy issues such as how governments should be addressing the various COVID-19 and gender issues, how governments should be funding COVID-19 response to meet the needs of the most vulnerable, and what are short term policy solutions (3-6 months) and long term policy solutions (3-5 years)."
 registration_link: https://us02web.zoom.us/webinar/register/WN_9BLFTEsAT0egxnBU0oUL9Q
 ---
 
@@ -22,8 +22,8 @@ registration_link: https://us02web.zoom.us/webinar/register/WN_9BLFTEsAT0egxnBU0
   -->
   
   <ul>
-    <li>Title: Examining policy solutions to address the impact of COVID19 on women in the Global South</li>
-    <li>Date: Tuesday, August 18, 2020 </li>
+    <li>Title: Examining policy solutions to address the impact of COVID-19 on women in the Global South</li>
+    <li>Date: Tuesday, August 18, 2020</li>
     <li>Time: 10:00-11:30 AM (EDT)</li>
     <li>Duration: 1.5 Hours</li>
   </ul>
@@ -36,9 +36,9 @@ registration_link: https://us02web.zoom.us/webinar/register/WN_9BLFTEsAT0egxnBU0
 
 ## Overview:
 
-COVID-19 has become an unprecedented global crisis. The pandemic and its associated economic crisis have exposed deep structural inequalities around the world, with disproportionate effects on women and girls. This webinar will discuss possible policy solutions to support women impacted by COVID-19 in the Global South. A diverse panel of key policy experts from the worlds of international development will discuss various policy issues such as how governments should be addressing the various COVID-19 and gender issues, how governments should be funding COVID19 response to meet the needs of the most vulnerable, and what are short term policy solutions (3-6 months) and long term policy solutions (3-5 years).
+COVID-19 has become an unprecedented global crisis. The pandemic and its associated economic crisis have exposed deep structural inequalities around the world, with disproportionate effects on women and girls. This webinar will discuss possible policy solutions to support women impacted by COVID-19 in the Global South. A diverse panel of key policy experts from the worlds of international development will discuss various policy issues such as how governments should be addressing the various COVID-19 and gender issues, how governments should be funding COVID-19 response to meet the needs of the most vulnerable, and what are short term policy solutions (3-6 months) and long term policy solutions (3-5 years).
 
-This is the eighth and last event in a series of research-to-practice Webinar on the gender dimensions of COVID19 organized by the Women’s Empowerment in Development (WED) Lab at McGill in partnership with the Institute for the Study of International Development and made possible thanks to funding from the Growth and Economic Opportunities for Women (GrOW 2) program, a multi-funder initiative by the Bill & Melinda Gates Foundation, the William and Flora Hewlett Foundation and Canada’s International Development Research Centre.
+This is the eighth and last event in a series of research-to-practice Webinar on the gender dimensions of COVID-19 organized by the Women’s Empowerment in Development (WED) Lab at McGill in partnership with the Institute for the Study of International Development and made possible thanks to funding from the Growth and Economic Opportunities for Women (GrOW 2) program, a multi-funder initiative by the Bill & Melinda Gates Foundation, the William and Flora Hewlett Foundation and Canada’s International Development Research Centre.
 
 ## Description:
 
