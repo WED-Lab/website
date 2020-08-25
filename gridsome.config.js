@@ -60,8 +60,17 @@ module.exports = {
         }
       },
 
-       // Access content from the local file system to display the seminars section
-       {
+      // Access content from the local file system to display the publications
+      {
+        use: '@gridsome/source-filesystem',
+        options: {
+          path: 'data/resources/resources.json',
+          typeName: 'Resources'
+        }
+      },
+
+      // Access content from the local file system to display the seminars section
+      {
         use: '@gridsome/vue-remark',
         options: {
           typeName: 'Seminar', // Required

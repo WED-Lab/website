@@ -89,6 +89,10 @@ export default {
           path: '/seminars/'
         },
         {
+          text: 'Resources',
+          path: '/resources/'
+        },
+        {
           text: 'People',
           path: '/people/'
         },
