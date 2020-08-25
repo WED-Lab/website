@@ -17,10 +17,12 @@
 
         <p class="mt-12">
 
+        <!--
         <a
           :href="webinar.registrationLink"
           rel="external"
           class="btn btn-dark-turquoise mr-5">Register<span class="sr-only"> for {{ webinar.title }}</span></a>
+        -->
 
         <g-link
           :to="webinar.path"
