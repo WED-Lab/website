@@ -38,6 +38,15 @@ module.exports = {
         }
       },
 
+      // Access content from the local file system to display the resources section
+      {
+        use: '@gridsome/source-filesystem',
+        options: {
+          path: './data/resources', // Where .md files are located
+          typeName: 'Resources', // Required
+        }
+      },
+
       // Access content from the local file system to display the people section
       {
         use: '@gridsome/vue-remark',
@@ -60,8 +69,8 @@ module.exports = {
         }
       },
 
-       // Access content from the local file system to display the seminars section
-       {
+      // Access content from the local file system to display the seminars section
+      {
         use: '@gridsome/vue-remark',
         options: {
           typeName: 'Seminar', // Required
@@ -69,7 +78,7 @@ module.exports = {
           pathPrefix: '/seminars', // Add route prefix. Optional
           template: './src/templates/Seminar.vue' // Optional
         }
-      }
+      },
 
     ]
 }

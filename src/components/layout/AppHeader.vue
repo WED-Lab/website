@@ -22,7 +22,7 @@
           <button
             ref="menuCloseButton"
             v-on:click="showMenu"
-            class="flex items-center px-3 py-3 bg-white border border-8 border-dark-turquoise text-dark-turquoise rounded-full shadow-md
+            class="flex items-center px-3 py-3 bg-white border border-dark-turquoise text-dark-turquoise rounded-full shadow-md
                    focus:text-dark-turquoise
                    hover:text-light-turquoise hover:border-light-turquoise hover:shadow-lg">
             <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
@@ -98,6 +98,10 @@ export default {
         {
           text: 'Seminars',
           path: '/seminars/'
+        },
+        {
+          text: 'Resources',
+          path: '/resources/'
         },
         {
           text: 'People',
