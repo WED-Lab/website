@@ -3,24 +3,27 @@
     <main>
       <content-panel>
 
-        <h1 name="maincontent" id="maincontent">COVID-19 Resources</h1>
+        <h1 name="maincontent" id="maincontent">Gender and COVID-19 Resources</h1>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac turpis dignissim, dapibus enim ut, bibendum mi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus mattis velit nec ante malesuada, quis iaculis quam rhoncus. Duis nibh elit, tincidunt nec diam a, sodales condimentum nibh. Integer vitae dui sed arcu interdum dapibus. Quisque placerat, odio eu finibus faucibus, libero erat vulputate metus, ut congue turpis nunc iaculis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin accumsan ante id arcu venenatis mollis. </p>
+        <p>The list below provides informative resources to support organizations in their collection of gender data around the impact of COVID19. Although the list is not exhaustive, it provides a range of gender data to support research and policy makers who seek to provide a gender-sensitive response to reduce the gender inequalities experienced as a result of the pandemic.</p>
 
         <!-- Loop through all of the categories creating an accordion for each category -->
 
         <div
-          v-for="category in categories"
-          v-bind:key="category.id">
+          v-for="category in $page.resources.edges"
+          v-bind:key="category.node.id">
           <section>
 
             <accordion
-              v-bind:category="category"
-              v-bind:resources="correctCategoryFilter(category)"
+              v-bind:title="category.node.title"
+              v-bind:id="category.node.id"
+              v-bind:content="category.node.content"
             />
 
           </section>
         </div>
+
+        <p><strong>Disclaimer</strong> Links on this resource list are provided solely for the convenience of our website visitors. We are not responsible for the accuracy, currency or reliability of the content of such websites. WEDLab is not responsible for the information found through these links, nor does it endorse the sites and their content.</p>
 
       </content-panel>
     </main>
@@ -32,11 +35,9 @@ query {
   resources: allResources {
     edges {
       node {
-        data {
-          title,
-          href,
-          category,
-        }
+        id,
+        title,
+        content,
       }
     }
   }
@@ -58,22 +59,7 @@ export default {
     }
   },
 
-  created() {
-    console.log('Resources component created', this.categories )
-
-    // create an array of all the unique categories
-    this.categories = this.$page.resources.edges[0].node.data.map(item => item.category)
-      .filter((value, index, self) => self.indexOf(value) === index)
-
-  },
-
   methods: {
-
-    correctCategoryFilter: function (category) {
-      return this.$page.resources.edges[0].node.data.filter( function (el) {
-        return el.category === category;
-      })
-    }
 
   },
 

@@ -12,6 +12,7 @@
     "@gridsome/transformer-remark": "^0.6.2",
     "@gridsome/vue-remark": "^0.2.4",
     "gridsome": "^0.7.20",
-    "tailwindcss": "^1.7.3"
+    "tailwindcss": "^1.7.3",
+    "vue-markdown": "^2.2.4"
   }
 }
