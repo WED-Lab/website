@@ -32,7 +32,7 @@
 
 <page-query>
 query {
-  resources: allResources {
+  resources: allResources(sortBy: "title", order: ASC) {
     edges {
       node {
         id,
