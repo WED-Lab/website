@@ -2,6 +2,8 @@
 title: "Gender-Based Violence"
 ---
 
+**UN Women.** 2020. [COVID-19 and violence against women and girls: Addressing the shadow pandemic](https://www.unwomen.org/en/digital-library/publications/2020/06/policy-brief-covid-19-and-violence-against-women-and-girls-addressing-the-shadow-pandemic)
+
 **The Lancet.**  June 2020. [Covid-19: A public health approach to manage domestic violence is needed](https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(20)30112-2/fulltext)
 
 **Save The Children.**  June 2020. [Spike in violence against Venezuelan children as covid-19 deepens crisis](https://www.savethechildren.net/news/spike-violence-against-venezuelan-children-covid-19-deepens-crisis)

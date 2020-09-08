@@ -2,7 +2,10 @@
 title: "Labour Market"
 ---
 
-**North Western University.**  August 2020. [This time it’s different: the role of women’s employment in a pandemic recession](https://faculty.wcas.northwestern.edu/~mdo738/research/ADOT_0720.pdf)
+**UN Women.** 2020. [Addressing the economic fallout of COVID-19: Pathways and policy options for a gender-responsive recovery](https://www.unwomen.org/en/digital-library/publications/2020/06/policy-brief-addressing-the-economic-fallout-of-covid-19)
+
+
+**North Western University.** August 2020. [This time it’s different: the role of women’s employment in a pandemic recession](https://faculty.wcas.northwestern.edu/~mdo738/research/ADOT_0720.pdf)
 
 **Bryan Cave Leighton Paisner.**  June 2020. [The effect of covid-19 on women in artisanal mining](https://www.jdsupra.com/legalnews/the-effect-of-covid-19-on-women-in-40237/)
 

@@ -2,11 +2,16 @@
 title: "Refugee Settings"
 ---
 
+**UN Women.** 2020. [Leaving no one behind: Access to social protection for all migrant women](https://www.unwomen.org/en/digital-library/publications/2020/01/access-to-social-protection-for-all-migrant-women)
+
+
 **Response for Venezuelans.**  June 2020. [The impact of covid-19 on refugees and migrants from Venezuela vulnerable to human trafficking and smuggling: Key messages to government authorities and law enforcement agencies](https://data2.unhcr.org/en/documents/details/76848)
 
 **Africa News.**  June 2020. [Coronavirus-Kenya: Women refugees on the front lines of covid-19 response](https://www.africanews.com/2020/06/20/coronavirus-kenya-women-refugees-on-the-front-lines-of-covid-19-response/)
 
 **World Economic Forum.**  May 2020. [Will covid-19 change how we think about migration and migrant workers](https://www.weforum.org/agenda/2020/05/covid-19-coronavirus-migration-migrant-workers-immigration-policy-health-securitization-risk-travel-bubbles/)
+
+**Response for Venezuelans.**  May 2020. [Review of the refugee and migrant response plan 2020 for Venezuelans- covid 19 situation](https://data2.unhcr.org/en/documents/details/76140)
 
 **Brookings Institute.**  May 2020. [Less gratitude, please. How covid-19 reveals the need for migration reform](https://www.brookings.edu/blog/future-development/2020/05/22/less-gratitude-please-how-covid-19-reveals-the-need-for-migration-reform/)
 

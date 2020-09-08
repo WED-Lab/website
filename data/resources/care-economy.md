@@ -2,6 +2,8 @@
 title: "Care Economy"
 ---
 
+**UN Women.** 2020. [COVID-19 and the care economy: Immediate action and structural transformation for a gender-responsive recovery](https://www.unwomen.org/en/digital-library/publications/2020/06/policy-brief-covid-19-and-the-care-economy)
+
 **C.D. Howe Institute.** July 2020. [The moms are not all right](https://www.cdhowe.org/intelligence-memos/schirle-skuterud-%E2%80%93-moms-are-not-all-right)
 
 **UN Women.**  June 2020. [Covid-19 and the care economy: Immediate action and structural transformation for a gender-responsive recovery](https://www.unwomen.org/en/digital-library/publications/2020/06/policy-brief-covid-19-and-the-care-economy)
