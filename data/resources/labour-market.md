@@ -20,7 +20,7 @@ title: "Labour Market"
 
 **Feminism in India.**  May 2020. [Post covid-19 for women in work: perspectives from India](https://feminisminindia.com/2020/05/01/post-covid-19-women-work-india/)
 
-**World Economic Forum.**  April 2020. [Here’s how to achieve gender equality after the pandemic](https://www.weforum.org/agenda/2020/04/)how-to-achieve-gender-equality-after-pandemic/
+**World Economic Forum.**  April 2020. [Here’s how to achieve gender equality after the pandemic](https://www.weforum.org/agenda/2020/04/how-to-achieve-gender-equality-after-pandemic/)
 
 **Care International.**  April 2020. [New Study: Covid-19 condemns millions of women to poverty, when they could be a solution to prosperity](https://www.care-international.org/news/press-releases/new-study-covid-19-condemns-millions-of-women-to-poverty-when-they-could-be-a-solution-to-prosperity)
 
